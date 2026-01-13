@@ -8,3 +8,7 @@ INNER JOIN movies ON movies.id = boxoffice.movie_id WHERE international_sales > 
 SELECT movies.title, rating FROM boxoffice
 INNER JOIN movies ON movies.id = boxoffice.movie_id 
 ORDER BY rating DESC;
+
+SELECT DISTINCT building_name FROM buildings LEFT JOIN employees ON building_name = building WHERE role NOT NULL;
+SELECT DISTINCT building_name ,capacity FROM buildings LEFT JOIN employees ON building_name = building;
+SELECT DISTINCT building_name, role FROM buildings LEFT JOIN employees ON building_name = building;

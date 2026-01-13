@@ -25,3 +25,60 @@ FROM movies
 SELECT title, year
 FROM movies
 WHERE year % 2 = 0;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+import javax.swing.*;
+
+public class MatchCards {
+
+    class Card {
+        String cardName;
+        ImageIcon cardImageIcon;
+
+        public Card(String cardName, ImageIcon cardImageIcon) {
+            this.cardName = cardName;
+            this.cardImageIcon = cardImageIcon;
+        }
+
+        public String toString() {
+            return cardName;
+        }
+    }
+
+    String[] cardList = { //track cardNames
+            "darkness",
+            "double",
+            "fairy",
+            "fighting",
+            "fire",
+            "grass",
+            "lightning",
+            "metal",
+            "psychic",
+            "water"
+    };
+
+
+    int rows = 4;
+    int columns = 5;
+    int cardWidth = 90;
+    int cardHeight = 128;
+
+    ArrayList<Card> cardSet;
+    ImageIcon cardBackImageIcon;
+
+    MatchCards() {
+        setupCards();
+        //shuffleCards();
+    }
+
+    void setupCards() {
+        cardSet = new ArrayList<Card>();
+        for(String cardName : cardList) {
+            Image cardImg = new ImageIcon(getClass().getResource("./img/" + cardName + ".jpg")).getImage();
+        }
+
+    }
+}

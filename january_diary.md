@@ -1,5 +1,16 @@
 # Computer Science
 ## 2026/01/14
+    void shuffleCards() {
+        System.out.println(cardSet);
+        //shuffle
+        for (int i = 0; i < cardSet.size(); i++){
+            int j = (int) (Math.random() * cardSet.size());
+            Card temp = cardSet.get(i);
+            cardSet.set(i, cardSet.get(j));
+            cardSet.set(j, temp);
+
+        }
+    }
 
     void setupCards() {
         cardSet = new ArrayList<Card>();

@@ -1,5 +1,22 @@
 # Computer Science
 ## 2026/01/14
+
+   frame.setLayout(new BorderLayout());
+        frame.setSize(boardWidth, boardHeight);
+        frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        textLabel.setFont(new Font("Arial", Font.PLAIN, 20));
+        textLabel.setHorizontalAlignment(JLabel.CENTER);
+        textLabel.setText("Errors: " + Integer.toString(errorCount));
+
+        textPanel.setPreferredSize(new Dimension(boardWidth, 30));
+        textPanel.add(textLabel);
+        frame.add(textPanel, BorderLayout.NORTH);
+        frame.pack();
+        frame.setVisible(true);
+
     void shuffleCards() {
         System.out.println(cardSet);
         //shuffle

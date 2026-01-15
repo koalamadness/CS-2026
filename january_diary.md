@@ -1,5 +1,22 @@
 # Computer Science
 ## 2026/01/14
+
+    void setupCards() {
+        cardSet = new ArrayList<Card>();
+        for(String cardName : cardList) {
+            Image cardImg = new ImageIcon(getClass().getResource("./img/" + cardName + ".jpg")).getImage();
+            ImageIcon cardImageIcon = new ImageIcon(cardImg.getScaledInstance(cardWidth, cardHeight, Image.SCALE_SMOOTH));
+
+            Card card = new Card(cardName, cardImageIcon);
+            cardSet.add(card);
+        }
+
+        cardSet.addAll(cardSet);
+
+        Image cardBackImage = new ImageIcon(getClass().getResource("./img/back.jpg")).getImage();
+        cardBackImageIcon = new ImageIcon(cardBackImage.getScaledInstance(cardWidth, cardHeight, Image.SCALE_SMOOTH));
+        
+    }
 ## 2026/01/13
 
 SELECT movies.title, domestic_sales, international_sales FROM boxoffice

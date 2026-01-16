@@ -10,6 +10,12 @@
             board.add(tile);
             boardPanel.add(tile);
         }
+     restartButton.setFont(new Font("Arial", Font.PLAIN, 16));
+        restartButton.setText("Restart Game");
+        restartButton.setPreferredSize(new Dimension(boardWidth, 30));
+        restartButton.setFocusable(false);
+        restartGamePanel.add(restartButton);
+        frame.add(restartGamePanel, BorderLayout.SOUTH);
 
 ## 2026/01/14
 

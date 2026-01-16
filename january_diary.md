@@ -1,6 +1,15 @@
 # Computer Science
 
 ## 2026/01/15
+ for (int i =0; i < cardSet.size(); i++){
+            JButton tile = new JButton();
+            tile.setPreferredSize(new Dimension(cardWidth, cardHeight));
+            tile.setOpaque(true);
+            tile.setIcon(cardSet.get(i).cardImageIcon);
+            tile.setFocusable(false);
+            board.add(tile);
+            boardPanel.add(tile);
+        }
 
 ## 2026/01/14
 

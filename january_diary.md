@@ -1,6 +1,12 @@
 # Computer Science
 
 ## 2026/01/15
+    void hideCards() {
+        for (JButton jButton : board) {
+            jButton.setIcon(cardBackImageIcon);
+        }
+        gameReady = true;
+    }
  for (int i =0; i < cardSet.size(); i++){
             JButton tile = new JButton();
             tile.setPreferredSize(new Dimension(cardWidth, cardHeight));

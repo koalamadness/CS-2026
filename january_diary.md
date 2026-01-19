@@ -8,6 +8,9 @@ SELECT COUNT(*) FROM employees WHERE role = "Artist";
 SELECT role, COUNT(*) FROM employees GROUP BY ROLE;
 SELECT SUM(years_employed) FROM employees GROUP BY role HAVING role = "Engineer";
 
+SELECT director, COUNT(title) FROM movies GROUP BY director;
+SELECT director, SUM(domestic_sales + international_sales) FROM movies LEFT JOIN boxoffice ON id = movie_id GROUP BY director;
+
 ## 2026/01/16
 Aunerisma 
 

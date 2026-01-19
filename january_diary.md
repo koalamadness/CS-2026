@@ -11,6 +11,10 @@ SELECT SUM(years_employed) FROM employees GROUP BY role HAVING role = "Engineer"
 SELECT director, COUNT(title) FROM movies GROUP BY director;
 SELECT director, SUM(domestic_sales + international_sales) FROM movies LEFT JOIN boxoffice ON id = movie_id GROUP BY director;
 
+SELECT teacher_id, COUNT(DISTINCT subject_id) AS cnt
+FROM teacher
+GROUP BY teacher_id;
+
 ## 2026/01/16
 Aunerisma 
 

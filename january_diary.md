@@ -1,6 +1,8 @@
 # Computer Science
 ## 2026/01/19
-
+SELECT MAX(years_employed) FROM employees;
+SELECT role, AVG(years_employed) FROM employees GROUP BY role;
+SELECT building, SUM(years_employed) FROM employees GROUP BY building;
 ## 2026/01/16
 Aunerisma 
 

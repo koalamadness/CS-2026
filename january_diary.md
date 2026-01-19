@@ -19,6 +19,9 @@ SELECT person.firstName, person.lastName, address.city, address.state
 FROM person
 LEFT JOIN address ON person.personId = address.personId;
 
+SELECT user_id, COUNT(follower_id) AS followers_count
+FROM followers GROUP BY user_id ORDER BY user_id ASC;
+
 ## 2026/01/16
 Aunerisma 
 

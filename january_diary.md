@@ -15,6 +15,10 @@ SELECT teacher_id, COUNT(DISTINCT subject_id) AS cnt
 FROM teacher
 GROUP BY teacher_id;
 
+SELECT person.firstName, person.lastName, address.city, address.state
+FROM person
+LEFT JOIN address ON person.personId = address.personId;
+
 ## 2026/01/16
 Aunerisma 
 

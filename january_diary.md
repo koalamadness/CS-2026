@@ -2,6 +2,15 @@
 
 ## 2026/01/20
 
+SELECT distinct city
+FROM patients WHERE province_id = "NS";
+
+SELECT first_name, last_name, birth_date
+FROM patients WHERE height > 160 AND weight > 70;
+
+SELECT first_name, last_name, allergies
+FROM patients where allergies IS not NULL AND city = "Hamilton";
+
 SELECT first_name, last_name, gender FROM patients WHERE gender = "M";
 
 SELECT first_name, last_name FROM patients WHERE allergies IS null;

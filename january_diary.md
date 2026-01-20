@@ -32,6 +32,15 @@ SELECT *
 FROM patients
 WHERE patient_id IN (1, 45, 534, 879, 1000);
 
+SELECT count(*)
+FROM admissions;
+
+SELECT *
+FROM admissions WHERE admission_date = discharge_date;
+
+SELECT patient_id, count(admission_date)
+FROM admissions WHERE patient_id = 579;
+
 ## 2026/01/19
 SELECT MAX(years_employed) FROM employees;
 SELECT role, AVG(years_employed) FROM employees GROUP BY role;

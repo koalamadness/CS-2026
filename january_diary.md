@@ -2,6 +2,12 @@
 
 ## 2026/01/20
 
+SELECT first_name
+FROM patients group by first_name
+having count(first_name) = 1;
+SELECT DISTINCT YEAR(birth_date)
+FROM patients order by birth_date ASC;
+
 SELECT distinct city
 FROM patients WHERE province_id = "NS";
 

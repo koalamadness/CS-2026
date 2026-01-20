@@ -2,6 +2,12 @@
 
 ## 2026/01/20
 
+SELECT first_name, last_name, gender FROM patients WHERE gender = "M";
+
+SELECT first_name, last_name FROM patients WHERE allergies IS null;
+
+SELECT first_name FROM patients WHERE first_name like "C%";
+
 ## 2026/01/19
 SELECT MAX(years_employed) FROM employees;
 SELECT role, AVG(years_employed) FROM employees GROUP BY role;

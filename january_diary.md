@@ -18,6 +18,20 @@ FROM patients
 LEFT JOIN province_names 
 ON patients.province_id = province_names.province_id;
 
+SELECT COUNT(*)
+FROM patients
+WHERE birth_date like "2010%";
+
+SELECT first_name, last_name , height
+FROM patients
+WHERE height = (
+select MAX(height) from patients
+);
+
+SELECT *
+FROM patients
+WHERE patient_id IN (1, 45, 534, 879, 1000);
+
 ## 2026/01/19
 SELECT MAX(years_employed) FROM employees;
 SELECT role, AVG(years_employed) FROM employees GROUP BY role;

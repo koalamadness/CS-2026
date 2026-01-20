@@ -8,6 +8,16 @@ SELECT first_name, last_name FROM patients WHERE allergies IS null;
 
 SELECT first_name FROM patients WHERE first_name like "C%";
 
+SELECT first_name, last_name FROM patients WHERE weight between 100 and 120;
+
+SELECT CONCAT(first_name ," ", last_name) AS full_name 
+FROM patients;
+
+SELECT patients.first_name, patients.last_name, province_names.province_name 
+FROM patients
+LEFT JOIN province_names 
+ON patients.province_id = province_names.province_id;
+
 ## 2026/01/19
 SELECT MAX(years_employed) FROM employees;
 SELECT role, AVG(years_employed) FROM employees GROUP BY role;

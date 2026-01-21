@@ -1,5 +1,12 @@
 # Computer Science
 ## 2026/01/21
+SELECT patient_id, attending_doctor_id, diagnosis FROM admissions
+where (MOD(patient_id, 2) = 1 AND attending_doctor_id IN (1,5,19)) 
+OR (attending_doctor_id LIKE "%2%" AND len(patient_id) = 3) ;   
+
+SELECT first_name, last_name, COUNT(*) AS admissions_total FROM doctors
+LEFT JOIN admissions ON doctor_id = attending_doctor_id
+group by doctor_id; 
 SELECT MAX(weight) - MIN(weight) AS weight_delta FROM patients
 where last_name = "Maroni";
 

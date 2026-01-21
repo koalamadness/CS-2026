@@ -11,6 +11,17 @@ where diagnosis = "Dementia";
 
 SELECT first_name FROM patients 
 order by LEN(first_name) , first_name ASC;
+SELECT 
+  (SELECT count(*) FROM patients WHERE gender='M') AS male_count, 
+  (SELECT count(*) FROM patients WHERE gender='F') AS female_count;
+
+SELECT first_name, last_name, allergies FROM patients
+WHERE allergies = "Penicillin" or allergies = "Morphine"
+order by allergies asc, first_name, last_name;
+
+SELECT patient_id, diagnosis FROM admissions
+group by patient_id, diagnosis
+having COUNT(*) > 1 ;
 ## 2026/01/20
 
 SELECT first_name

@@ -22,6 +22,19 @@ order by allergies asc, first_name, last_name;
 SELECT patient_id, diagnosis FROM admissions
 group by patient_id, diagnosis
 having COUNT(*) > 1 ;
+SELECT city, count(*) AS num_patients FROM patients
+group by city
+order by num_patients desc,
+city asc;
+
+SELECT first_name, last_name, "Patient" AS role FROM patients
+union ALL
+select first_name, last_name, "Doctor" FROM doctors;
+
+SELECT allergies, COUNT(*) AS total_diagnosis FROM patients
+group by allergies
+HAVING allergies IS NOT null
+order by total_diagnosis DESC;
 ## 2026/01/20
 
 SELECT first_name

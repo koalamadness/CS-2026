@@ -1,5 +1,15 @@
 # Computer Science
 ## 2026/01/21
+SELECT first_name, last_name, birth_date FROM patients
+WHERE year(birth_date) between 1970 AND 1979
+order by birth_date asc;
+
+SELECT concat(upper(last_name), ",", lower(first_name)) FROM patients
+order by first_name desc;
+
+SELECT province_id, SUM(height) AS sum_height FROM patients
+group by province_id
+having SUM(height) >= 7000;
 SELECT patient_id, first_name FROM patients 
 WHERE 
 	len(first_name) >= 6 

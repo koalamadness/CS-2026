@@ -1,5 +1,16 @@
 # Computer Science
 ## 2026/01/21
+SELECT doctor_id, concat(first_name," ", last_name)	, MIN(admission_date), max(admission_date) FROM doctors
+LEFT JOIN admissions ON doctor_id = attending_doctor_id
+group by doctor_id;   
+
+SELECT
+  province_name,
+  COUNT(*) as patient_count
+FROM patients pa
+  join province_names pr on pr.province_id = pa.province_id
+group by pr.province_id
+order by patient_count desc;
 SELECT patient_id, attending_doctor_id, diagnosis FROM admissions
 where (MOD(patient_id, 2) = 1 AND attending_doctor_id IN (1,5,19)) 
 OR (attending_doctor_id LIKE "%2%" AND len(patient_id) = 3) ;   

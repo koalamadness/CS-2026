@@ -1,5 +1,15 @@
 # Computer Science
 ## 2026/01/21
+SELECT MAX(weight) - MIN(weight) AS weight_delta FROM patients
+where last_name = "Maroni";
+
+SELECT * FROM admissions
+where patient_id = 542
+ORDER BY admission_date DESC LIMIT 1;
+
+
+SELECT DAY(admission_date), COUNT(*) FROM admissions
+group by day(admission_date) order by COUNT(*) DESC;
 SELECT first_name, last_name, birth_date FROM patients
 WHERE year(birth_date) between 1970 AND 1979
 order by birth_date asc;

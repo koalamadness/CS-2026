@@ -1,6 +1,16 @@
 # Computer Science
 ## 2026/01/21
+SELECT patient_id, first_name FROM patients 
+WHERE 
+	len(first_name) >= 6 
+	AND first_name LIKE "s%s";
 
+SELECT patients.patient_id, first_name, last_name FROM patients 
+LEFT JOIN admissions on patients.patient_id = admissions.patient_id
+where diagnosis = "Dementia";
+
+SELECT first_name FROM patients 
+order by LEN(first_name) , first_name ASC;
 ## 2026/01/20
 
 SELECT first_name

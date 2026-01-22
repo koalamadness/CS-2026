@@ -1,7 +1,26 @@
 # Computer Science
 
 ## 2026/01/22
-
+tile.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    if (!gameReady) {
+                        return;
+                    }
+                    JButton tile = (JButton) e.getSource();
+                    if (tile.getIcon() == cardBackImageIcon) {
+                        if (card1Selected == null) {
+                            card1Selected = tile;
+                            int index = board.indexOf(card1Selected);
+                            card1Selected.setIcon(cardSet.get(index).cardImageIcon);
+                        }
+                        else if (card2Selected == null) {
+                            card2Selected = tile;
+                            int index = board.indexOf(card2Selected);
+                            card2Selected.setIcon(cardSet.get(index).cardImageIcon);
+                        }
+                    }
+                }
 ## 2026/01/21
 SELECT doctor_id, concat(first_name," ", last_name)	, MIN(admission_date), max(admission_date) FROM doctors
 LEFT JOIN admissions ON doctor_id = attending_doctor_id

@@ -1,4 +1,7 @@
 # Computer Science
+
+## 2026/01/22
+
 ## 2026/01/21
 SELECT doctor_id, concat(first_name," ", last_name)	, MIN(admission_date), max(admission_date) FROM doctors
 LEFT JOIN admissions ON doctor_id = attending_doctor_id

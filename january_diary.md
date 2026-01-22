@@ -1,6 +1,18 @@
 # Computer Science
 
 ## 2026/01/22
+  if (gameReady && card1Selected != null && card2Selected != null) {
+            card1Selected.setIcon(cardBackImageIcon);
+            card1Selected = null;
+            card2Selected.setIcon(cardBackImageIcon);
+            card2Selected = null;
+        } else {
+
+            for (JButton jButton : board) {
+                jButton.setIcon(cardBackImageIcon);
+            }
+            gameReady = true;
+        }
 tile.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {

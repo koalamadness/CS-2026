@@ -1,6 +1,26 @@
 # Computer Science
 
 ## 2026/01/22
+  restartButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (!gameReady) {
+                    return;
+                }
+
+                gameReady = false;
+
+                card1Selected = null;
+                card2Selected = null;
+                shuffleCards();
+                for (JButton jButton : board) {
+                    jButton.setIcon(cardBackImageIcon);
+                }
+
+                errorCount = 0;
+                textLabel.setText("Errors: " + Integer.toString(errorCount));
+                hideCardTimer.start();
+            }
   if (gameReady && card1Selected != null && card2Selected != null) {
             card1Selected.setIcon(cardBackImageIcon);
             card1Selected = null;

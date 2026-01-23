@@ -1,5 +1,12 @@
 # Computer Science
 ## 2026/01/23
+UPDATE movies
+SET year = 1999
+WHERE id = 3;
+
+UPDATE movies
+SET year = 1999
+WHERE id = 3;
 
 INSERT INTO movies
 (title)

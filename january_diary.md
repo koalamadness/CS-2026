@@ -1,6 +1,18 @@
 # Computer Science
 
 ## 2026/01/22
+SELECT ROUND(AVG(unit_price),2), SUM(units_in_stock), sum(discontinued) FROM products;
+
+SELECT category_name, round(AVG(unit_price),2) FROM categories
+LEFT JOIN products ON categories.category_id = products.category_id
+group by products.category_id;
+
+SELECT year(order_date), month(order_date), COUNT(*) FROM orders
+group by year(order_date), month(order_date);
+
+SELECT p.product_name, s.company_name, c.category_name FROM products p
+JOIN suppliers s on p.supplier_id = s.supplier_id
+JOIN categories c ON p.category_id = c.category_id;
 SELECT city, company_name, contact_name FROM customers 
 WHERE city like "%l%" order by contact_name;
 

@@ -1,6 +1,19 @@
 # Computer Science
 ## 2026/01/23
 
+INSERT INTO movies
+(title)
+VALUES ('Toy Story 4');
+
+INSERT INTO boxoffice
+(movie_id, rating, domestic_sales, international_sales)
+VALUES (15, 8.7, 'Toy Story 4', 270000000);
+
+UPDATE movies
+SET director = "John Lasseter"
+WHERE id = 2;
+
+
 update patients 
 SET allergies = 'NKA'
 where allergies IS null;

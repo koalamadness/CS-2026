@@ -1,6 +1,14 @@
 # Computer Science
 
 ## 2026/01/22
+SELECT city, company_name, contact_name FROM customers 
+WHERE city like "%l%" order by contact_name;
+
+SELECT company_name, contact_name, fax FROM customers 
+WHERE fax IS NOT null;
+
+SELECT first_name, last_name, hire_date FROM employees 
+order by hire_date DESC liMIT 1;
 SELECT employee_id, order_id, customer_id, required_date, shipped_date FROM orders 
 WHERE shipped_date > required_date;
 

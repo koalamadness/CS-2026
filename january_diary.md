@@ -1,6 +1,14 @@
 # Computer Science
 
 ## 2026/01/22
+SELECT category_name, description FROM categories 
+order by category_name;
+
+SELECT contact_name, address, city FROM customers 
+WHERE country NOT IN ("Germany", "Mexico", "Spain");
+
+SELECT order_date, shipped_date, customer_id, freight FROM orders 
+WHERE order_date = "2018-02-26";
 Finished
   restartButton.addActionListener(new ActionListener() {
             @Override

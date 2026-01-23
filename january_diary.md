@@ -1,6 +1,14 @@
 # Computer Science
 ## 2026/01/23
 
+update patients 
+SET allergies = 'NKA'
+where allergies IS null;
+
+select first_name, last_name, count(*) FROM patients
+group by first_name, last_name
+HAVING count(*) > 1;
+
 if(card1Selected.getIcon() != card2Selected.getIcon()) {
                             errorCount += 1;
                             // lost

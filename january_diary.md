@@ -3,6 +3,25 @@
 
 textLabel.setText("Errors: " + errorCount + "   Pairs: " + pairCount);
 
+void restartGame(){
+        if (!gameReady) {
+            return;
+        }
+        gameReady = false;
+        restartButton.setEnabled(false);
+        card1Selected = null;
+        card2Selected = null;
+        shuffleCards();
+        for (int i = 0; i < board.size(); i++) {
+            board.get(i).setIcon(cardSet.get(i).cardImageIcon);
+        }
+
+        errorCount = 0;
+        pairCount = 0;
+        textLabel.setText("Errors: " + errorCount + "   Pairs: " + pairCount);
+        hideCardTimer.start();
+    }
+
 ## 2026/01/22
 SELECT city, company_name, contact_name, "customers" AS relationship FROM customers
 union

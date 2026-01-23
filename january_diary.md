@@ -1,6 +1,13 @@
 # Computer Science
 
 ## 2026/01/22
+SELECT company_name, contact_name, fax FROM customers 
+WHERE fax IS NOT null;
+
+SELECT first_name, last_name, hire_date FROM employees 
+order by hire_date DESC liMIT 1;
+
+SELECT ROUND(AVG(unit_price),2), SUM(units_in_stock), sum(discontinued) FROM products;
 SELECT employee_id, order_id, customer_id, required_date, shipped_date FROM orders 
 WHERE shipped_date > required_date;
 

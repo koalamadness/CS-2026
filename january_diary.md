@@ -1,4 +1,5 @@
 # Computer Science
+## 2026/01/23
 
 ## 2026/01/22
 SELECT city, company_name, contact_name, "customers" AS relationship FROM customers

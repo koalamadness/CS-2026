@@ -1,6 +1,14 @@
 # Computer Science
 
 ## 2026/01/22
+SELECT employee_id, order_id, customer_id, required_date, shipped_date FROM orders 
+WHERE shipped_date > required_date;
+
+SELECT order_id FROM orders 
+WHERE MOD(order_id, 2) == 0;
+
+SELECT city, company_name, contact_name FROM customers 
+WHERE city like "%l%" order by contact_name;
 SELECT category_name, description FROM categories 
 order by category_name;
 

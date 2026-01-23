@@ -1,6 +1,27 @@
 # Computer Science
 ## 2026/01/23
 
+if(card1Selected.getIcon() != card2Selected.getIcon()) {
+                            errorCount += 1;
+                            // lost
+                            if (errorCount == 10) {
+                                textLabel.setText("U LOOOST");
+                                return;
+                            }
+                            hideCardTimer.start();
+
+                        }
+                        else {
+                            pairCount += 1;
+                            card1Selected = null;
+                            card2Selected = null;
+                            if (pairCount == 10) {
+                                textLabel.setText("U WOOON");
+                                return;
+                            }
+                        }
+                        textLabel.setText("Errors: " + errorCount + "   Pairs: " + pairCount);
+
 textLabel.setText("Errors: " + errorCount + "   Pairs: " + pairCount);
 
 void restartGame(){

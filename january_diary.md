@@ -8,6 +8,10 @@ GROUP BY pr.province_name
 HAVING
   SUM(gender = 'M') > SUM(gender = 'F');
 
+    void printTextLabel() {
+        textLabel.setText("Errors: " + errorCount + "   Pairs: " + pairCount);
+    }
+
 SELECT * FROM patients
 WHERE first_name LIKE '__r%'
 AND gender = 'F'

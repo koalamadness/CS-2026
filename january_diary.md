@@ -8,6 +8,14 @@ GROUP BY pr.province_name
 HAVING
   SUM(gender = 'M') > SUM(gender = 'F');
 
+SELECT * FROM patients
+WHERE first_name LIKE '__r%'
+AND gender = 'F'
+AND month(birth_date) IN (02, 05, 12)
+AND weight between 60 and 80
+AND patient_id % 2 != 0
+AND city = 'Kingston';
+
 ## 2026/01/23
 
 DELETE FROM movies

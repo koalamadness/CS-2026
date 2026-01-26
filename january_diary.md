@@ -1,4 +1,13 @@
 # Computer Science
+
+## 2026/01/26
+SELECT pr.province_name
+FROM patients AS pa
+  JOIN province_names AS pr ON pa.province_id = pr.province_id
+GROUP BY pr.province_name
+HAVING
+  SUM(gender = 'M') > SUM(gender = 'F');
+
 ## 2026/01/23
 
 DELETE FROM movies

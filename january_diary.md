@@ -16,6 +16,10 @@ AND weight between 60 and 80
 AND patient_id % 2 != 0
 AND city = 'Kingston';
 
+select distinct patients.patient_id, concat(patients.patient_id, LEN(last_name), YEAR(birth_date))
+from patients
+RIGHT JOIN admissions ON patients.patient_id = admissions.patient_id;
+
 ## 2026/01/23
 
 DELETE FROM movies

@@ -1,6 +1,12 @@
 # Computer Science
 
 ## 2026/01/26
+
+                        if (turnPlayerOne) {
+                            playerOneScore += 1;
+                        } else {
+                            playerTwoScore += 1;
+                        }
 SELECT pr.province_name
 FROM patients AS pa
   JOIN province_names AS pr ON pa.province_id = pr.province_id

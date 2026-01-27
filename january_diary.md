@@ -1,6 +1,11 @@
 # Computer Science
 ## 2026/01/27
-
+SELECT patient_id, weight, height, 
+case
+	when weight/(power((height/100.0),2)) >= 30 THEN 1
+    ELSE 0
+    END AS isObese
+FROM patients;
 ## 2026/01/26
 
                         if (turnPlayerOne) {

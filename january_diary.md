@@ -14,7 +14,12 @@ WHERE
   ph.first_name = 'Lisa' and
   a.diagnosis = 'Epilepsy';
 
-  
+select doctors.doctor_id, concat(first_name,' ', last_name) AS doctor_name, doctors.specialty,
+YEAR(admission_date), COUNT(*) FROM doctors
+JOIN admissions on doctors.doctor_id = admissions.attending_doctor_id
+group by doctor_name, YEAR(admission_date)
+order by doctor_id, YEAR(admission_date);
+
 ## 2026/01/27
 SELECT patient_id, weight, height, 
 case

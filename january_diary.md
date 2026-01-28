@@ -1,6 +1,14 @@
 # Computer Science
 
 ## 2026/01/28
+
+-- BugFix
+    void setBoardEnabled(boolean enabled) {
+        for (JButton button : board) {
+            button.setEnabled(enabled);
+        }
+    }
+
 -- Animation 
     void animateError(JButton c1, JButton c2) {
         Border red = BorderFactory.createLineBorder(Color.RED, 3);

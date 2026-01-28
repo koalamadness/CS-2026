@@ -1,7 +1,32 @@
 # Computer Science
 
 ## 2026/01/28
+-- Animation 
+    void animateError(JButton c1, JButton c2) {
+        Border red = BorderFactory.createLineBorder(Color.RED, 3);
+        Border normal = UIManager.getBorder("Button.border");
 
+        c1.setBorder(red);
+        c2.setBorder(red);
+
+        new Timer(600, e -> {
+            c1.setBorder(normal);
+            c2.setBorder(normal);
+        }).start();
+    }
+
+    void animatePair(JButton c1, JButton c2) {
+        Border green = BorderFactory.createLineBorder(Color.GREEN, 3);
+        Border normal = UIManager.getBorder("Button.border");
+
+        c1.setBorder(green);
+        c2.setBorder(green);
+
+        new Timer(500, e -> {
+            c1.setBorder(normal);
+            c2.setBorder(normal);
+        }).start();
+    }
 --Sound 
     void playSound(String soundFileName) {
         try {

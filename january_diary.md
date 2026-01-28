@@ -2,6 +2,20 @@
 
 ## 2026/01/28
 
+--Sound 
+    void playSound(String soundFileName) {
+        try {
+            AudioInputStream audioStream = AudioSystem.getAudioInputStream(
+                    Objects.requireNonNull(getClass().getResource("./sounds/" + soundFileName))
+            );
+            Clip clip = AudioSystem.getClip();
+
+            clip.open(audioStream);
+            clip.start();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 SELECT
   p.patient_id,
   p.first_name AS patient_first_name,

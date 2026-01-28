@@ -20,6 +20,13 @@ JOIN admissions on doctors.doctor_id = admissions.attending_doctor_id
 group by doctor_name, YEAR(admission_date)
 order by doctor_id, YEAR(admission_date);
 
+SELECT
+ admission_date,
+ count(admission_date) as admission_day,
+ count(admission_date) - LAG(count(admission_date)) OVER(ORDER BY admission_date) AS admission_count_change 
+FROM admissions
+ group by admission_date;
+
 ## 2026/01/27
 SELECT patient_id, weight, height, 
 case

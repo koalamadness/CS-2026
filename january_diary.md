@@ -1,6 +1,12 @@
 # Computer Science
 ## 2026/01/30
-
+select concat(first_name, " ", last_name), ROUND(height/30.48, 1),
+ROUND(weight*2.205,0), birth_date, 
+CASE 
+	WHEN gender = 'M' THEN 'Male'
+    ELSE 'Female'
+END
+FROM patients;
 ## 2026/01/28
 
 -- BugFix

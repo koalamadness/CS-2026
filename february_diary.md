@@ -17,5 +17,12 @@ SELECT employees.name, departments.name FROM employees INNER JOIN departments ON
             printTimeTable();
 
         });
+                if (turnPlayerOne) {
+            playerOneTimer.stop();
+            playerTwoTimer.start();
+        } else {
+            playerTwoTimer.stop();
+            playerOneTimer.start();
+        }
 ## 2026/02/03
 -Electro

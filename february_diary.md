@@ -1,7 +1,22 @@
 # Computer Science
 
 ## 2026/02/05
+ void placeHighScore() {
 
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("highscore.txt"));
+            String line = br.readLine();
+            br.close();
+
+            if (line != null) {
+                highScore = Integer.parseInt(line);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
 
 ## 2026/02/04
 

@@ -1,5 +1,15 @@
 # Computer Science
 ## 2026/02/06
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+class MainTest {
+
+    @Test
+    void testExample() {
+        assertEquals(4, 2 + 2);
+    }
+}
         if (!file.exists()) {
             highScore = 0;
             return;

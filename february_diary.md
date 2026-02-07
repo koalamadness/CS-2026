@@ -1,6 +1,20 @@
 # Computer Science
 ## 2026/02/06
+        if (!file.exists()) {
+            highScore = 0;
+            return;
+        }
 
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String line = br.readLine();
+            if (line != null && !line.isEmpty()) {
+                highScore = Integer.parseInt(line);
+            }
+        } catch (IOException | NumberFormatException e) {
+            highScore = 0;
+        }
+
+    }
 ## 2026/02/05
  void placeHighScore() {
 

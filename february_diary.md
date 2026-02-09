@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/09
+SELECT first_name, last_name, department_id FROM employees WHERE department_id = 10 OR department_id = 40;
 SELECT first_name, last_name, salary FROM employees ORDER BY salary DESC;
 SELECT first_name, last_name, salary FROM employees WHERE salary > 80000;
 SELECT * FROM employees;

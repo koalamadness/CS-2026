@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/09
+SELECT SUM(salary) AS total_salary FROM employees;
 SELECT COUNT(*) AS total_employees FROM employees;
 SELECT first_name, last_name, salary FROM employees ORDER BY salary DESC LIMIT 3;
 SELECT first_name, last_name, manager_id FROM employees WHERE manager_id IS NULL;

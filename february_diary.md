@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/09
+SELECT first_name, last_name, salary FROM employees WHERE salary > 80000;
 SELECT * FROM employees;
 SELECT * FROM city WHERE population > 100000 AND countrycode = 'USA';
 SELECT department_name FROM departments;

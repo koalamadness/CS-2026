@@ -2,6 +2,7 @@
 ## 2026/02/09
 SELECT * FROM employees;
 SELECT * FROM city WHERE population > 100000 AND countrycode = 'USA';
+SELECT department_name FROM departments;
 ## 2026/02/06
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

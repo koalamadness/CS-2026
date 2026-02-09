@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/02/09
-
+SELECT * FROM employees;
 SELECT * FROM city WHERE population > 100000 AND countrycode = 'USA';
 ## 2026/02/06
 import org.junit.jupiter.api.Test;

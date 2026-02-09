@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/09
+SELECT first_name, last_name FROM employees WHERE first_name LIKE 'a%';
 SELECT AVG(salary) AS average_salary FROM employees;
 SELECT AVG(salary) FROM employees;
 SELECT SUM(salary) AS total_salary FROM employees;

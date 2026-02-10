@@ -1,6 +1,9 @@
 # Computer Science
 
-## 2026/02/09
+## 2026/02/10
+SELECT departments.department_name, COUNT(employees.employee_id) AS 'employee_count' FROM departments
+LEFT JOIN employees ON departments.department_id = employees.department_id
+GROUP BY departments.department_name;
 Electro
 SELECT employee_id AS 'Employee Number', CONCAT(first_name, ' ', last_name) AS 'Full Name', salary AS 'Annual Salary', hire_date AS 'Start Date' FROM employees;
 SELECT employees.first_name, employees.last_name, departments.department_name 

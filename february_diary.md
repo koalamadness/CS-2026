@@ -2,6 +2,7 @@
 
 ## 2026/02/09
 Electro
+SELECT employee_id AS 'Employee Number', CONCAT(first_name, ' ', last_name) AS 'Full Name', salary AS 'Annual Salary', hire_date AS 'Start Date' FROM employees;
 
 ## 2026/02/09
 SELECT 

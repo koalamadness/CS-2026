@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/02/09
+SELECT 
+      departments.department_name, departments.location, employees.first_name, employees.last_name
+FROM departments
+LEFT JOIN employees ON departments.department_id = employees.department_id
+ORDER BY departments.department_name, employees.first_name;
 SELECT first_name, last_name, salary FROM employees WHERE salary BETWEEN 60000 AND 90000;
 SELECT first_name, last_name, department_id FROM employees WHERE department_id IN (10, 20);
 SELECT first_name, last_name FROM employees WHERE first_name LIKE 'a%';

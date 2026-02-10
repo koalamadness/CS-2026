@@ -3,7 +3,9 @@
 ## 2026/02/09
 Electro
 SELECT employee_id AS 'Employee Number', CONCAT(first_name, ' ', last_name) AS 'Full Name', salary AS 'Annual Salary', hire_date AS 'Start Date' FROM employees;
-
+SELECT employees.first_name, employees.last_name, departments.department_name 
+FROM employees
+INNER JOIN departments ON departments.department_id = employees.department_id;
 ## 2026/02/09
 SELECT 
       departments.department_name, departments.location, employees.first_name, employees.last_name

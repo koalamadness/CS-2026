@@ -1,4 +1,8 @@
 # Computer Science
+
+## 2026/02/09
+Electro
+
 ## 2026/02/09
 SELECT 
       departments.department_name, departments.location, employees.first_name, employees.last_name

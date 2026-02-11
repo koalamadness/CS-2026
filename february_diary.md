@@ -2,6 +2,7 @@
 ## 2026/02/11
 SELECT * FROM students;
 SELECT first_name, last_name, graduation_year FROM students WHERE major = 'Computer Science';
+SELECT courses.course_name, courses.credits FROM courses ORDER BY credits DESC;
 ## 2026/02/10
 SELECT departments.department_name, COUNT(employees.employee_id) AS 'employee_count' FROM departments
 LEFT JOIN employees ON departments.department_id = employees.department_id

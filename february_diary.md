@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/02/11
-
+SELECT * FROM students;
 ## 2026/02/10
 SELECT departments.department_name, COUNT(employees.employee_id) AS 'employee_count' FROM departments
 LEFT JOIN employees ON departments.department_id = employees.department_id

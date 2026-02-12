@@ -1,6 +1,7 @@
 # Computer Science
 ## 2026/02/12
 SELECT first_name, last_name, major FROM students WHERE graduation_year = 2026;
+SELECT COUNT(*) AS 'total_courses' FROM courses;
 ## 2026/02/11
 SELECT * FROM students;
 SELECT first_name, last_name, graduation_year FROM students WHERE major = 'Computer Science';

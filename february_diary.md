@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/12
+SELECT s.first_name, s.last_name, c.course_name, e.grade FROM students s INNER JOIN enrollments e ON s.student_id = e.student_id
+INNER JOIN courses c ON c.course_id = e.course_id;
 SELECT first_name, last_name, email, major FROM students WHERE email LIKE '%university.edu';
 SELECT first_name, last_name, hire_date FROM professors WHERE department = 'Computer Science';
 SELECT first_name, last_name, enrollment_date FROM students WHERE enrollment_date > '2022-12-31';

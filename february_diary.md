@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/12
+SELECT AVG(credits) AS 'average_credits' FROM courses;
 SELECT first_name, last_name, major FROM students WHERE graduation_year = 2026;
 SELECT COUNT(*) AS 'total_courses' FROM courses;
 ## 2026/02/11

@@ -1,4 +1,6 @@
 # Computer Science
+## 2026/02/13
+
 ## 2026/02/12
 SELECT s.first_name, s.last_name, c.course_name, e.grade FROM students s INNER JOIN enrollments e ON s.student_id = e.student_id
 INNER JOIN courses c ON c.course_id = e.course_id;

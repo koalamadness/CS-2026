@@ -1,6 +1,12 @@
 # Computer Science
 
 ## 2026/02/16
+
+SELECT 'Customer' AS Type, ContactName, City, Country
+FROM Customers
+UNION
+SELECT 'Supplier', ContactName, City, Country
+FROM Suppliers;
 SQL UNION Operator
 
 junit

@@ -6,7 +6,10 @@ final finally finalize
 
 **Collections Primitive**
 
+4.1. Checked and Unchecked Exceptions
+A checked exception means that it’s checked at the compile time. Note, that we must handle this exception. Otherwise, a method must specify an exception by using throws keyword.
 
+The most common checked exceptions are IOException, FileNotFoundException, ParseException. FileNotFoundException may be thrown when we create FileInputStream from File. 
 
 == equal
 abstract extend one interface implement many 

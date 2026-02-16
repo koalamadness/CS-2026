@@ -1,4 +1,7 @@
 # Computer Science
+
+## 2026/02/16
+
 ## 2026/02/13
 SELECT products.product_name, products.price FROM products ORDER BY products.price DESC;
 

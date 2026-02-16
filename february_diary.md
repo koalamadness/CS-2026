@@ -4,6 +4,7 @@
 == equal
 abstract extend one interface implement many 
 String[] args
+public static void
 
 ## 2026/02/13
 SELECT products.product_name, products.price FROM products ORDER BY products.price DESC;

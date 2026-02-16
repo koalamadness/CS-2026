@@ -3,6 +3,12 @@
 ## 2026/02/16
 poly abs encap inher
 final finally finalize 
+As the opposite, unchecked exceptions aren’t checked at the compile time. 
+
+The most common unchecked exceptions are: ArrayIndexOutOfBoundsException, IllegalArgumentException, NullPointerException. 
+
+Unchecked exceptions are thrown during runtime. The following code will throw a NullPointerException. Probably it’s one of the most common exceptions in Java.
+
 
 **Collections Primitive**
 

@@ -6,6 +6,7 @@ abstract extend one interface implement many
 String[] args
 public static void
 JDK development KIT -> JRE Java Runtime Environment -> JVM Java Virtual Machine
+try - catch throw throws
 
 ## 2026/02/13
 SELECT products.product_name, products.price FROM products ORDER BY products.price DESC;

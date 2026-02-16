@@ -1,6 +1,8 @@
 # Computer Science
 
 ## 2026/02/16
+array list / array 
+
 poly abs encap inher
 final finally finalize 
 As the opposite, unchecked exceptions aren’t checked at the compile time. 

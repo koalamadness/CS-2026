@@ -1,6 +1,13 @@
 # Computer Science
 
 ## 2026/02/16
+poly abs encap inher
+final finally finalize 
+
+**Collections Primitive**
+
+
+
 == equal
 abstract extend one interface implement many 
 String[] args

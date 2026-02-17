@@ -1,6 +1,9 @@
 # Computer Science
 
 ## 2026/02/16
+ SELECT salesman_id AS 'ID', name AS 'name', city, 'Salesman' AS 'Type' FROM Salesman WHERE city = 'London'
+UNION
+SELECT customer_id, cust_name , city, 'Customer' FROM Customer WHERE city = 'London';
 
 SELECT 'Customer' AS Type, ContactName, City, Country
 FROM Customers

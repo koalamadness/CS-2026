@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/17
+1. Consistent Lock Ordering 
 📌 1. Segunda persona con mayor salario
 SELECT MAX(salary)
 FROM employees

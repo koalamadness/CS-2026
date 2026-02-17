@@ -1,5 +1,37 @@
 # Computer Science
 ## 2026/02/17
+📌 1. Segunda persona con mayor salario
+SELECT MAX(salary)
+FROM employees
+WHERE salary < (SELECT MAX(salary) FROM employees);
+
+
+O usando LIMIT:
+
+SELECT salary 
+FROM employees
+ORDER BY salary DESC
+LIMIT 1 OFFSET 1;
+
+📌 2. Encontrar empleados con salario mayor al promedio
+SELECT *
+FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees);
+
+📌 3. Encontrar duplicados en una tabla
+SELECT name, COUNT(*)
+FROM employees
+GROUP BY name
+HAVING COUNT(*) > 1;
+
+📌 4. Diferencia entre INNER JOIN y LEFT JOIN
+
+Pregunta típica teórica + práctica:
+
+SELECT e.name, d.department_name
+FROM employees e
+LEFT JOIN departments d
+ON e.dept_id = d.id;
 *args tuple *kids[0]
 **kwargs keyword arguments 
 ANY ALL

@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/02/17
+
+Una view es una tabla virtual basada en una consulta SELECT. No almacena datos físicamente, sino que ejecuta la consulta cada vez que se accede a ella. Se usa para seguridad, simplificación de consultas y abstracción de la base de datos.
+
 1. Consistent Lock Ordering 
 📌 1. Segunda persona con mayor salario
 SELECT MAX(salary)

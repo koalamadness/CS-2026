@@ -4,6 +4,7 @@ ANY ALL
 iterator
 Thread run Runnable
 java 8 
+try except
 ## 2026/02/16
  SELECT salesman_id AS 'ID', name AS 'name', city, 'Salesman' AS 'Type' FROM Salesman WHERE city = 'London'
 UNION

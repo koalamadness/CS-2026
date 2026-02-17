@@ -1,5 +1,6 @@
 # Computer Science
-
+## 2026/02/17
+ANY ALL
 ## 2026/02/16
  SELECT salesman_id AS 'ID', name AS 'name', city, 'Salesman' AS 'Type' FROM Salesman WHERE city = 'London'
 UNION

@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/17
+*args tuple *kids[0]
+**kwargs keyword arguments 
 ANY ALL
 iterator
 Thread run Runnable

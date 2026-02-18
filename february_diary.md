@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/18
+buff optimize write file
+streasm img, pdf, audio
 readLine()
 newLine()
 get add remove clear 

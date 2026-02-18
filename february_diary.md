@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/18
+try resoruces 
 Normalization 
 drop, trucnate, delete 
 ## 2026/02/17

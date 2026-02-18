@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/18
+hash set list interface hashmap treeset linkedlist
 buddreded reader weirter fileoutstream instream
 try resoruces 
 Normalization 

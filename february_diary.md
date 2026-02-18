@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/18
+buddreded reader weirter fileoutstream instream
 try resoruces 
 Normalization 
 drop, trucnate, delete 

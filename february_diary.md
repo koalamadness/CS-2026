@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/18
+streams reduce map filter collect 
 hash set list interface hashmap treeset linkedlist
 buddreded reader weirter fileoutstream instream
 try resoruces 

@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/02/18
-
+readLine()
 get add remove clear 
 streams reduce map filter collect 
 hash set list interface hashmap treeset linkedlist

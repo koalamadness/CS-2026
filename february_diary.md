@@ -1,6 +1,8 @@
 # Computer Science
 ## 2026/02/18
 append() extend()
+append() adds a single item (of any type) to the end of a list.
+extend() adds all elements from an iterable (like a list, tuple, or set) to the end of the current list.
 optional
 buff optimize write file
 streasm img, pdf, audio

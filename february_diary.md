@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/18
+optional
 buff optimize write file
 streasm img, pdf, audio
 readLine()

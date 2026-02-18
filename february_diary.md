@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/18
+Git is a popular version control system.
+
 append() extend()
 append() adds a single item (of any type) to the end of a list.
 extend() adds all elements from an iterable (like a list, tuple, or set) to the end of the current list.

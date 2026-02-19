@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/02/19
-
+mutable, imuttalbe, reference valor 
 ## 2026/02/18
 The slice operator is a feature in programming (most notably in Python and JavaScript) used to extract a portion (or "slice") of a sequence, such as a string, list, or tuple [:]
 Git is a popular version control system.

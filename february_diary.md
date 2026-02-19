@@ -1,5 +1,9 @@
 # Computer Science
 ## 2026/02/19
+In Python, decorators are flexible way to modify or extend behavior of functions or methods, without changing their actual code.
+
+A decorator is essentially a function that takes another function as an argument and returns a new function with enhanced functionality.
+Decorators are often used in scenarios such as logging, authentication and memorization, allowing us to add additional functionality to existing functions or methods in a clean, reusable way.
 mutable, imuttalbe, reference valor ADD() DATE() yield match generator
 The pass statement in Python is a placeholder that does nothing when executed.
 

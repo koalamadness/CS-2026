@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/02/19
+List comprehension is a concise and powerful way to create new lists by applying an expression to each item in an existing iterable (like a list, tuple or range). It helps you write clean, readable and efficient code compared to traditional loops.
+
+
 In Python, decorators are flexible way to modify or extend behavior of functions or methods, without changing their actual code.
 
 A decorator is essentially a function that takes another function as an argument and returns a new function with enhanced functionality.

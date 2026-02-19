@@ -1,6 +1,10 @@
 # Computer Science
 ## 2026/02/19
 mutable, imuttalbe, reference valor ADD() DATE() yield match generator
+The pass statement in Python is a placeholder that does nothing when executed.
+
+It is used to keep code blocks valid where a statement is required but no logic is needed yet.
+Examples situations where pass is used are empty functions, classes, loops or conditional blocks.
 print(~(~2))
 ## 2026/02/18
 The slice operator is a feature in programming (most notably in Python and JavaScript) used to extract a portion (or "slice") of a sequence, such as a string, list, or tuple [:]

@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/24
+The JUnit assertion methods, which are included in the org.junit.jupiter.api.Assertions class in JUnit 5 and 6, and the org.junit.Assert class in JUnit 4, are commonly used to determine the pass/fail status of test cases. 
 Capture the Output of the Method Under Test
 In Part 8, if the method under test returns a value, it should be captured in a variable so that its value can be asserted on.
 he "When" Section & How to Invoke the Method Under Test

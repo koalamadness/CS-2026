@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/02/24
+ith interfaces, all fields are automatically public, static, and final,
 <img width="705" height="348" alt="image" src="https://github.com/user-attachments/assets/b73db63a-8173-48ec-8250-652e3894b005" />
 
 Java Development Kit, or JDK, is a software development kit that is a superset of JRE. It is the foundational component that enables Java application and Java applet development. It is platform-specific, so separate installers are needed for each operating system (for example, Mac, Unix, and Windows).

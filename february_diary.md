@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/24
+Test Method Naming in JUnit
+For Part 5, again, note the naming convention testMethodName, where methodName is the name of the method being tested in the class under test. 
 There are many other annotations, but some of the most common for JUnit 5 and 6 are the following.
 
 @BeforeEach identifies a method that should be run before each test method in the class. It’s typically used to update or reset the state needed for the test methods to run properly.

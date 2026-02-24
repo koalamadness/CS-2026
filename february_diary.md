@@ -1,5 +1,11 @@
 # Computer Science
 ## 2026/02/24
+Choose your own adventure! Here, we will look at three ways to run JUnits:
+
+Straight from the command line
+From the IDE (Eclipse and IntelliJ)
+Using build systems (Maven and Gradle)
+
 The expected outcome, which the test author defines.
 The actual output, which is the return value of the method being called
 The delta, which allows for an acceptable deviation between the expected and actual values. This delta is specific to the fact that we’re validating the value of a double type.

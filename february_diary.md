@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/24
+The "Given" Section & How to Set Up a Test
+In Part 6, the Given section of the test, we construct a new instance of the class under test and initialize it as appropriate. 
 Test Method Naming in JUnit
 For Part 5, again, note the naming convention testMethodName, where methodName is the name of the method being tested in the class under test. 
 There are many other annotations, but some of the most common for JUnit 5 and 6 are the following.

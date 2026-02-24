@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/02/24
+The expected outcome, which the test author defines.
+The actual output, which is the return value of the method being called
+The delta, which allows for an acceptable deviation between the expected and actual values. This delta is specific to the fact that we’re validating the value of a double type.
 The JUnit assertion methods, which are included in the org.junit.jupiter.api.Assertions class in JUnit 5 and 6, and the org.junit.Assert class in JUnit 4, are commonly used to determine the pass/fail status of test cases. 
 Capture the Output of the Method Under Test
 In Part 8, if the method under test returns a value, it should be captured in a variable so that its value can be asserted on.

@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/02/24
+A test case defines the fixture to run multiple tests. Some of the important methods of TestCase class are as follows −
+
+
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;

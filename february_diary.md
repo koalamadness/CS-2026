@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/24
+he "When" Section & How to Invoke the Method Under Test
+In Part 7, the When section of the test includes initializing variables that need to be passed when calling the method being tested and then calling the test method (part 8). The variables should be given meaningful values that cause the test to exercise the parts of the test method that we care about
 The "Given" Section & How to Set Up a Test
 In Part 6, the Given section of the test, we construct a new instance of the class under test and initialize it as appropriate. 
 Test Method Naming in JUnit

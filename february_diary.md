@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/02/24
+Java Runtime Environment, or JRE, is a set of software tools responsible for execution of the Java program or application on your system.
+
+JRE uses heap space for dynamic memory allocation for Java objects. JRE is also used in JDB (Java Debugging).
 JVM components
 JVM consists of three main components or subsystems:
 

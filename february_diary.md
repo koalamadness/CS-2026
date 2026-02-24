@@ -1,5 +1,12 @@
 # Computer Science
 ## 2026/02/24
+There are many other annotations, but some of the most common for JUnit 5 and 6 are the following.
+
+@BeforeEach identifies a method that should be run before each test method in the class. It’s typically used to update or reset the state needed for the test methods to run properly.
+@AfterEach identifies a method that should be run after each test method in the class. It can be used to reset variables, delete temporary files, and so on.
+@Disabled specifies that a test method should not be run.
+@BeforeAll identifies a method that should be run once before any test methods are run.
+@AfterAll identifies a method that should be run once after all test methods are run.
 JUnit Annotations & How They’re Used
 In Part 4, we see our first JUnit-specific syntax: the @Test annotation. Annotations are extremely important when creating JUnits. This is how the JUnit framework identifies the important parts of the unit test.
 How to Define a JUnit Test Class

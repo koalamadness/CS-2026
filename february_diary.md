@@ -1,4 +1,6 @@
 # Computer Science
+## 2026/02/24
+
 ## 2026/02/19
 List comprehension is a concise and powerful way to create new lists by applying an expression to each item in an existing iterable (like a list, tuple or range). It helps you write clean, readable and efficient code compared to traditional loops.
 

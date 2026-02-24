@@ -1,5 +1,11 @@
 # Computer Science
 ## 2026/02/24
+JVM components
+JVM consists of three main components or subsystems:
+
+Class Loader Subsystem is responsible for loading, linking, and initializing a Java class file (that is, “Java file”), otherwise known as dynamic class loading.
+Runtime Data Areas contain method areas, PC registers, stack areas, and threads.
+Execution Engine contains an interpreter, compiler, and garbage collection area.
 A test case defines the fixture to run multiple tests. Some of the important methods of TestCase class are as follows −
 
 

@@ -1,5 +1,9 @@
 # Computer Science
 ## 2026/02/24
+Java Development Kit, or JDK, is a software development kit that is a superset of JRE. It is the foundational component that enables Java application and Java applet development. It is platform-specific, so separate installers are needed for each operating system (for example, Mac, Unix, and Windows).
+
+The role of JDK in Java
+JDK contains all the tools that are required to compile, debug, and run a program developed using the Java platform. (It’s worth noting that Java programs can also be run by using command line.)
 Java Runtime Environment, or JRE, is a set of software tools responsible for execution of the Java program or application on your system.
 
 JRE uses heap space for dynamic memory allocation for Java objects. JRE is also used in JDB (Java Debugging).

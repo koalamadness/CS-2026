@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/24
+JUnit Annotations & How They’re Used
+In Part 4, we see our first JUnit-specific syntax: the @Test annotation. Annotations are extremely important when creating JUnits. This is how the JUnit framework identifies the important parts of the unit test.
 How to Define a JUnit Test Class
 Part 3 defines the start of our test class. The important thing to take note of here is the naming convention used for the class, which is ClassNameTest.
 Imports & Dependencies in JUnit

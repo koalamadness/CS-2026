@@ -3,6 +3,7 @@
 ddl, dml, tcl, dcl
 ROLLBACK COMMIT SAVEPOINT
 GRANT REVOKE
+comparator
 ## 2026/02/24
   List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
 

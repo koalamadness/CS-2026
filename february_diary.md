@@ -1,5 +1,12 @@
 # Computer Science
 ## 2026/02/26
+SELECT first_name, 
+       last_name,
+       CASE
+           WHEN specialization IS NULL THEN 'not specified'
+           ELSE specialization
+       END AS specialization
+FROM doctor;
 SELECT book.title FROM book
 JOIN author ON author.id = book.author_id
 JOIN book_loan ON book_loan.book_id = book.id

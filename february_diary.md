@@ -1,5 +1,12 @@
 # Computer Science
 ## 2026/02/26
+SELECT name, type
+FROM treatment t
+WHERE price > (
+    SELECT AVG(price)
+    FROM treatment
+    WHERE type = t.type
+);
 SELECT patient.first_name, patient.last_name
 FROM patient
 JOIN visit ON patient.id = visit.patient_id

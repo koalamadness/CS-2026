@@ -2,6 +2,7 @@
 ## 2026/02/26
 SELECT name, category, price FROM product
 WHERE category = 'pants' AND (price <= 10 OR price >= 40);
+SELECT title, genre FROM book WHERE pub_year = 1998 AND LENGTH(title) = 5;
 ## 2026/02/25
 UNIQUE CHECK(years < 18) AUTO INCREMENT
 ALTER table

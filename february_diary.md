@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/02/26
+SELECT reader.first_name, reader.last_name , COUNT(reader_id) AS books
+FROM reader
+LEFT JOIN book_loan ON reader.id = book_loan.reader_id
+GROUP BY reader.first_name, reader.last_name
+ORDER BY books DESC, reader.first_name, reader.last_name;
 SELECT 
     ROUND(AVG(COALESCE(LENGTH(biography), 0)), 2) AS average_biography_length
 FROM doctor;

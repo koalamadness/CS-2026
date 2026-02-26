@@ -1,5 +1,9 @@
 # Computer Science
 ## 2026/02/26
+SELECT treatment.name, treatment.type, doctor.first_name, doctor.last_name
+FROM treatment
+LEFT JOIN visit ON treatment.id = visit.treatment_id 
+LEFT JOIN doctor ON visit.doctor_id = doctor.id;
 SELECT name, category, price FROM product
 WHERE category = 'pants' AND (price <= 10 OR price >= 40);
 SELECT title, genre FROM book WHERE pub_year = 1998 AND LENGTH(title) = 5;

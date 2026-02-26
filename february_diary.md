@@ -1,5 +1,13 @@
 # Computer Science
 ## 2026/02/26
+SELECT book_title, reader, borrow_date, return_date
+FROM book_loan 
+WHERE return_date <= borrow_date + 5;
+ SELECT ROUND(AVG(LENGTH(biography)), 2)
+FROM 
+(
+  SELECT LENGTH(biography) FROM doctor
+);
 SELECT 
     e.full_name AS employee,
     m.full_name AS manager

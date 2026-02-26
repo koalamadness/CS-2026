@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/02/26
+SELECT book_loan.id, book.title, reader.first_name, reader.last_name, book_loan.borrow_date,
+book_loan.return_date
+FROM reader 
+JOIN book_loan ON book_loan.reader_id = reader.id 
+JOIN book ON book.id = book_loan.book_id;
 SELECT treatment.name, treatment.type, doctor.first_name, doctor.last_name
 FROM treatment
 LEFT JOIN visit ON treatment.id = visit.treatment_id 

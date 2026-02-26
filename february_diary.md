@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/02/26
+SELECT name, category, price FROM product
+WHERE category = 'pants' AND (price <= 10 OR price >= 40);
 ## 2026/02/25
 UNIQUE CHECK(years < 18) AUTO INCREMENT
 ALTER table

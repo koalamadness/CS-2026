@@ -1,5 +1,19 @@
 # Computer Science
 ## 2026/02/26
+SELECT d.first_name, d.last_name
+FROM doctor d
+JOIN visit v ON v.doctor_id = d.id
+GROUP BY d.id, d.first_name, d.last_name, d.specialization
+HAVING COUNT(v.id) > (
+    SELECT AVG(cnt)
+    FROM (
+        SELECT COUNT(v2.id) AS cnt
+        FROM doctor d2
+        JOIN visit v2 ON v2.doctor_id = d2.id
+        WHERE d2.specialization = d.specialization
+        GROUP BY d2.id
+    ) sub
+);
 SELECT
     order_id,
     order_date,

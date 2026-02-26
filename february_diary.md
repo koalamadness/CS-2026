@@ -1,5 +1,11 @@
 # Computer Science
 ## 2026/02/26
+SELECT patient.first_name, patient.last_name
+FROM patient
+JOIN visit ON patient.id = visit.patient_id
+GROUP BY patient.first_name, patient.last_name
+HAVING COUNT(*) > 5
+ORDER BY patient.first_name ASC, patient.last_name ASC;
 SELECT reader.first_name, reader.last_name , COUNT(reader_id) AS books
 FROM reader
 LEFT JOIN book_loan ON reader.id = book_loan.reader_id

@@ -1,5 +1,19 @@
 # Computer Science
 ## 2026/02/26
+SELECT book.title FROM book
+JOIN author ON author.id = book.author_id
+JOIN book_loan ON book_loan.book_id = book.id
+GROUP BY book.title
+HAVING COUNT(*) > (
+SELECT book.title, COUNT(*) AS total_loans
+FROM book
+JOIN author ON author.id = book.author_id
+JOIN book_loan ON book_loan.book_id = book.id
+WHERE author.first_name = 'Stephen'
+  AND author.last_name = 'King'
+GROUP BY book.id, book.title
+ORDER BY total_loans DESC
+LIMIT 1);
 SELECT name, type
 FROM treatment t
 WHERE price > (

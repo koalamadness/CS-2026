@@ -1,5 +1,14 @@
 # Computer Science
 ## 2026/02/26
+SELECT
+    order_id,
+    order_date,
+    total_price,
+    SUM(total_price) OVER (
+        ORDER BY order_date
+    ) AS running_total
+FROM orders
+ORDER BY order_date;
 SELECT first_name, 
        last_name,
        CASE

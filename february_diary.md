@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/02/26
+SELECT 
+    ROUND(AVG(COALESCE(LENGTH(biography), 0)), 2) AS average_biography_length
+FROM doctor;
 SELECT book_title, reader, borrow_date, return_date
 FROM book_loan 
 WHERE return_date <= borrow_date + 5;

@@ -1,5 +1,11 @@
 # Computer Science
 ## 2026/02/26
+SELECT 
+    e.full_name AS employee,
+    m.full_name AS manager
+FROM employee e
+LEFT JOIN employee m 
+    ON e.manager_id = m.id;
 SELECT book_loan.id, book.title, reader.first_name, reader.last_name, book_loan.borrow_date,
 book_loan.return_date
 FROM reader 

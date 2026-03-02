@@ -1,6 +1,7 @@
 # Computer Science
 
 ## 2026/03/02
+_doc_
 intersection
 insert
 *args

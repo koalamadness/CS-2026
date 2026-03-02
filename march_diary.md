@@ -1,6 +1,10 @@
 # Computer Science
 
 ## 2026/03/02
+SELECT ID
+FROM COMPANY
+WHERE EMPLOYEES > 10000
+ORDER BY ID;
 _doc_
 intersection
 insert

@@ -1,6 +1,7 @@
 # Computer Science
 
 ## 2026/03/02
+*args
 [vals for val in vals]
 <img width="971" height="463" alt="image" src="https://github.com/user-attachments/assets/bc188648-781d-4054-b6f1-c9bbccd0b85e" />
 <img width="1146" height="524" alt="image" src="https://github.com/user-attachments/assets/7b8d43bb-cbd4-4e70-a660-3a841ef910a7" />

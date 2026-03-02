@@ -1,6 +1,7 @@
 # Computer Science
 
 ## 2026/03/02
+[vals for val in vals]
 <img width="971" height="463" alt="image" src="https://github.com/user-attachments/assets/bc188648-781d-4054-b6f1-c9bbccd0b85e" />
 <img width="1146" height="524" alt="image" src="https://github.com/user-attachments/assets/7b8d43bb-cbd4-4e70-a660-3a841ef910a7" />
 <img width="1062" height="274" alt="image" src="https://github.com/user-attachments/assets/77170bdb-2af9-4322-84d2-a28c57fb1251" />

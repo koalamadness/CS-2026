@@ -1,6 +1,9 @@
 # Computer Science
 
 ## 2026/03/02
+10. What is the purpose of the Optional class?
+
+In Java, the Optional class is used to represent a value that may or may not be present, helping to avoid null and reduce the risk of NullPointerException.
 8. What is the purpose of the volatile keyword in Java?
 SELECT ID
 FROM COMPANY

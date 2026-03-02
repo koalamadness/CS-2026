@@ -1,6 +1,7 @@
 # Computer Science
 
 ## 2026/03/02
+8. What is the purpose of the volatile keyword in Java?
 SELECT ID
 FROM COMPANY
 WHERE EMPLOYEES > 10000

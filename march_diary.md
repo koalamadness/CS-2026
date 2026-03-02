@@ -2,6 +2,7 @@
 
 ## 2026/03/02
 intersection
+insert
 *args
 [vals for val in vals]
 <img width="971" height="463" alt="image" src="https://github.com/user-attachments/assets/bc188648-781d-4054-b6f1-c9bbccd0b85e" />

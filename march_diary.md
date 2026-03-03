@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/03/03
+SELECT country, COUNT(user_id) AS user_count
+FROM users
+GROUP BY country;
 SELECT COUNT(user_id) AS total_users 
 FROM users;
 SELECT DISTINCT query_text FROM search_queries

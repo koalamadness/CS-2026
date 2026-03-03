@@ -2,6 +2,9 @@
 ## 2026/03/03
 Cons
 Unique
+SELECT employees.first_name, employees.last_name, warehouses.location AS warehouses_location
+FROM employees
+INNER JOIN warehouses ON employees.warehouse_id = warehouses.warehouse_id;
 ## 2026/03/02
 10. What is the purpose of the Optional class?
 

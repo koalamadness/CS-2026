@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/03/03
+SELECT first_name, last_name, email, country FROM customers WHERE prime_member = 1;
 Cons
 Unique
 SELECT employees.first_name, employees.last_name, warehouses.location AS warehouses_location

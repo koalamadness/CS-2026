@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/03/03
+SELECT p.category, COUNT(DISTINCT p.product_id) AS product_count, ROUND(AVG(r.rating), 2) AS avg_rating FROM products p INNER JOIN reviews r ON p.product_id = r.product_id GROUP BY p.category HAVING AVG(r.rating) > 4.0 ORDER BY avg_rating DESC;
 SELECT e.first_name, e.last_name, e.hire_date, w.warehouse_name, w.location AS warehouse_location FROM employees e INNER JOIN warehouses w ON e.warehouse_id = w.warehouse_id WHERE strftime('%Y', e.hire_date) = '2024' ORDER BY e.hire_date DESC;
 SELECT o.order_id, CONCAT(c.first_name, ' ', c.last_name) AS customer_name, o.order_date
 FROM customers c

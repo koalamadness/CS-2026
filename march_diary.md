@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/03/03
+SELECT e.first_name, e.last_name, e.hire_date, w.warehouse_name, w.location AS warehouse_location FROM employees e INNER JOIN warehouses w ON e.warehouse_id = w.warehouse_id WHERE strftime('%Y', e.hire_date) = '2024' ORDER BY e.hire_date DESC;
 SELECT o.order_id, CONCAT(c.first_name, ' ', c.last_name) AS customer_name, o.order_date
 FROM customers c
 JOIN orders o ON o.customer_id = c.customer_id

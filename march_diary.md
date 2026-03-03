@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/03/03
+SELECT COUNT(user_id) AS total_users 
+FROM users;
 SELECT DISTINCT query_text FROM search_queries
 WHERE search_date >= '2024-01-18'
 ORDER BY query_text;

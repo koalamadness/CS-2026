@@ -1,5 +1,9 @@
 # Computer Science
 ## 2026/03/03
+SELECT o.order_id, CONCAT(c.first_name, ' ', c.last_name) AS customer_name, o.order_date
+FROM customers c
+JOIN orders o ON o.customer_id = c.customer_id
+WHERE o.order_date > DATE('2024-01-15');
 SELECT product_name, price, stock_quantity FROM products WHERE category = 'Electronics';
 SELECT first_name, last_name, email, country FROM customers WHERE prime_member = 1;
 Cons

@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/03/03
+SELECT DISTINCT query_text FROM search_queries
+WHERE search_date >= '2024-01-18'
+ORDER BY query_text;
 SELECT w.warehouse_name,
        w.location,
        COUNT(DISTINCT e.employee_id) AS employee_count,

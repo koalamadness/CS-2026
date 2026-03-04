@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/03/04
+SELECT search_date, COUNT(query_id) AS total_searches
+FROM search_queries
+GROUP BY search_date;
 YAML
 DTO
 IoC

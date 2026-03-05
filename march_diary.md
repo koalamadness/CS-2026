@@ -1,4 +1,6 @@
 # Computer Science
+## 2026/03/05
+Electro
 ## 2026/03/04
 SELECT COUNT(*) AS total_queries 
 FROM search_queries;

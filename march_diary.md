@@ -2,6 +2,7 @@
 ## 2026/03/05
 Electro
 Controller Service Repository DTO Entity Mapper 
+JWT
 ## 2026/03/04
 SELECT COUNT(*) AS total_queries 
 FROM search_queries;

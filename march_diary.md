@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/03/04
+SELECT COUNT(*) AS total_queries 
+FROM search_queries;
 SELECT users.user_id FROM users
 WHERE users.user_id NOT IN (
 SELECT DISTINCT u.user_id

@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/03/06
-docker Bean
+docker Bean Singleton Factory
 ## 2026/03/05
 Electro
 Controller Service Repository DTO Entity Mapper 

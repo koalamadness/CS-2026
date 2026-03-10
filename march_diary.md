@@ -1,5 +1,9 @@
 # Computer Science
 ## 2026/03/10
+SELECT g.group_name, g.description, u.username AS creator_username, g.member_count, g.created_at
+FROM users u
+JOIN groups g ON u.user_id = g.created_by
+WHERE g.privacy = 'public';
 SELECT p.post_id, u.username, p.content AS post_content_preview, p.likes_count
 FROM users u 
 JOIN posts p ON u.user_id = p.user_id

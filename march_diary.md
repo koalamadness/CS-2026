@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/03/10
+SELECT p.post_id, u.username, p.content AS post_content_preview, p.likes_count
+FROM users u 
+JOIN posts p ON u.user_id = p.user_id
+ORDER BY p.likes_count DESC
+LIMIT 10;
 Cl
 Bait
 Rin

@@ -1,6 +1,38 @@
 # Computer Science
 ## 2026/03/11
+package com.example.students.model;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "estudiantes") 
+public class Estudiante {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String nombre;
+    private String apellido;
+    private String email;
+    private String carrera;
+
+    // Getters y Setters
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
+
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
+
+    public String getApellido() { return apellido; }
+    public void setApellido(String apellido) { this.apellido = apellido; }
+
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
+
+    public String getCarrera() { return carrera; }
+    public void setCarrera(String carrera) { this.carrera = carrera; }
+}
 ## 2026/03/10
 SELECT u.username, COUNT(DISTINCT p.post_id) AS total_posts, COUNT(DISTINCT c.comment_id) AS total_comments, COUNT(DISTINCT l.like_id) AS total_likes_given, COUNT(DISTINCT p.post_id) + COUNT(DISTINCT c.comment_id) + COUNT(DISTINCT l.like_id) AS total_engagement FROM users u LEFT JOIN posts p ON u.user_id = p.user_id LEFT JOIN comments c ON u.user_id = c.user_id LEFT JOIN likes l ON u.user_id = l.user_id GROUP BY u.user_id, u.username ORDER BY total_engagement DESC;
 SELECT g.group_name, g.description, u.username AS creator_username, g.member_count, g.created_at

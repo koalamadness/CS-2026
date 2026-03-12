@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/03/12
-Migration ORM Annotation
+Migration ORM Annotation Hibernate
 ## 2026/03/11
 SELECT f.title, l.name, f.rating, f.rental_rate FROM film f
 JOIN language l ON f.language_id = l.language_id

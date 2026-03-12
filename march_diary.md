@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/03/11
+SELECT f.title, l.name, f.rating, f.rental_rate FROM film f
+JOIN language l ON f.language_id = l.language_id
+WHERE rating = 'PG' AND rental_rate > 0.99
+ORDER BY rental_rate DESC, title;
+
 POSTGRE
 package com.example.students.repository;
 

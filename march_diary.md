@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/03/17
-Electro sf ping
+Electro sf ping cat
 ## 2026/03/13
 
 ## 2026/03/12

@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/03/25
-
+Finances
 ## 2026/03/24
 Electro
 ## 2026/03/23

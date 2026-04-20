@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/04/20
-bucket 
+bucket instance
 ## 2026/04/17
 laggiu
 ## 2026/04/16

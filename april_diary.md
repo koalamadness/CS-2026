@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/04/20
-bucket instance
+bucket instance rdbs
 ## 2026/04/17
 laggiu
 ## 2026/04/16

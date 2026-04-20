@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/04/20
-bucket instance rdbs expot enviroment variables
+bucket instance rdbs expot enviroment variables npm start 
 ## 2026/04/17
 laggiu
 ## 2026/04/16

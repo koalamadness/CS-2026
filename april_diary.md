@@ -2,6 +2,7 @@
 ## 2026/04/20
 bucket instance rdbs expot enviroment variables npm start allow all IPS region & disown ELB CLOUDFRINT
 route 53
+CDN
 ## 2026/04/17
 laggiu
 ## 2026/04/16

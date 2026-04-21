@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/04/21
-
+DynamDB
 ## 2026/04/20
 pipe | >
 cat

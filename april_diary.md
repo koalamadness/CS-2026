@@ -3,6 +3,7 @@
 AIM
 DynamDB
 API Gateway
+Amplify
 ## 2026/04/20
 pipe | >
 cat

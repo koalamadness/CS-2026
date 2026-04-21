@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/04/20
+pipe | >
 cat
 bucket instance rdbs expot enviroment variables npm start allow all IPS region & disown ELB CLOUDFRINT
 route 53

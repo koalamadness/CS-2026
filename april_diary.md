@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/04/21
+Lambda
 AIM
 DynamDB
 API Gateway

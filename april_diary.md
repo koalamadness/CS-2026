@@ -1,7 +1,7 @@
 # Computer Science
 ## 2026/04/23
 git hub actions 
-event job
+event job explore 1
 ## 2026/04/22
 Dockerfile
 Docker 

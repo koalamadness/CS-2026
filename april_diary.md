@@ -1,7 +1,7 @@
 # Computer Science
 ## 2026/04/23
 git hub actions blame
-event job explore 1
+event job explore 1 piano forte mege conlgict 
 ## 2026/04/22
 Dockerfile
 Docker 

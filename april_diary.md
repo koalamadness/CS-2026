@@ -2,7 +2,12 @@
 ## 2026/04/27
 ⚠️ 2. N+1 problem
 🧠 Qué es
+🧩 1. ORM
+🧠 Qué es
 
+ORM (Object-Relational Mapping) es una forma de trabajar con bases de datos usando objetos en vez de SQL directo.
+
+En Spring Data JPA el ORM más común es Hibernate.
 Es un problema de rendimiento donde haces 1 query principal + N queries adicionales innecesarias.
 Kids
 <img width="665" height="727" alt="image" src="https://github.com/user-attachments/assets/4dea0cf2-b385-43f6-a5f9-7338d07cdd7b" />

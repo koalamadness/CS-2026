@@ -1,5 +1,9 @@
 # Computer Science
 ## 2026/04/27
+⚠️ 2. N+1 problem
+🧠 Qué es
+
+Es un problema de rendimiento donde haces 1 query principal + N queries adicionales innecesarias.
 Kids
 <img width="665" height="727" alt="image" src="https://github.com/user-attachments/assets/4dea0cf2-b385-43f6-a5f9-7338d07cdd7b" />
 @Test

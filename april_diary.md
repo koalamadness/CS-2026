@@ -2,7 +2,17 @@
 ## 2026/04/27
 Kids
 <img width="665" height="727" alt="image" src="https://github.com/user-attachments/assets/4dea0cf2-b385-43f6-a5f9-7338d07cdd7b" />
+@Test
+void shouldReturnPokemonFromApi() {
+    PokemonApi api = mock(PokemonApi.class);
+    when(api.getPokemon("pikachu")).thenReturn(new Pokemon("pikachu"));
 
+    PokemonService service = new PokemonService(api);
+
+    Pokemon result = service.getPokemon("pikachu");
+
+    assertEquals("pikachu", result.getName());
+}
 ## 2026/04/23
 git hub actions blame
 event job explore 1 vivo per lei

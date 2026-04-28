@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/04/28
-
+Dockerfile
 ## 2026/04/27
 vale, pude contestar todas jsata un tercio de senior , por ejemplo, no se Retries, circuit breakers, timeouts, fallback y observabilidad.
 ⚠️ 2. N+1 problem

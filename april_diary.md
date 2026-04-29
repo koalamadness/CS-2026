@@ -1,6 +1,8 @@
 # Computer Science
 ## 2026/04/29
 Vocabulary
+@ExtendWith(MockitoExtension.class)
+
 ## 2026/04/28
 Cuéntame cómo pruebas una funcionalidad nueva desde cero
 ¿Qué debe llevar un buen reporte de bug?

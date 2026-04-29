@@ -2,6 +2,7 @@
 ## 2026/04/29
 Vocabulary
 @ExtendWith(MockitoExtension.class)
+    @DisplayName("Create ")
 
 ## 2026/04/28
 Cuéntame cómo pruebas una funcionalidad nueva desde cero

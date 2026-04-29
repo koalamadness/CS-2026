@@ -1,5 +1,18 @@
 # Computer Science
 ## 2026/04/28
+Cuéntame cómo pruebas una funcionalidad nueva desde cero
+¿Qué debe llevar un buen reporte de bug?
+¿Te ha pasado que algo funciona en tu entorno pero falla en producción? ¿Qué hiciste?
+¿Qué lenguaje conoces y para qué lo has usado?
+¿Has usado herramientas como Postman? ¿Para qué?
+Si una API te regresa datos incorrectos, ¿cómo validarías dónde está el problema?
+¿Qué haces si encuentras muchos errores pero te piden liberar rápido?
+En un login, ¿qué probarías?
+En un formulario, ¿qué validarías sí o sí?
+Si un botón no responde, ¿qué revisarías antes de reportarlo?
+¿Cómo te comunicas con desarrolladores cuando algo no está bien?
+¿Prefieres trabajar con instrucciones claras o explorar por tu cuenta?
+¿Te funciona un esquema híbrido?
 Dockerfile
 https://www.youtube.com/watch?v=Geq60OVyBPg
 ## 2026/04/27

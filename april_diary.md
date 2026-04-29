@@ -3,7 +3,11 @@
 Vocabulary
 @ExtendWith(MockitoExtension.class)
     @DisplayName("Create ")
-
+   @Test
+    @Disabled
+    void ignore() {
+        
+    }
 ## 2026/04/28
 Cuéntame cómo pruebas una funcionalidad nueva desde cero
 ¿Qué debe llevar un buen reporte de bug?

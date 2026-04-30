@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/04/30
+<img width="1267" height="605" alt="image" src="https://github.com/user-attachments/assets/191f4e4a-d7af-4dd8-92df-f2753afd2810" />
+
 <img width="1258" height="579" alt="image" src="https://github.com/user-attachments/assets/6219a181-c5fe-4127-9ca2-e2136f38172a" />
 
 ## 2026/04/29

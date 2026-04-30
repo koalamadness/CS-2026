@@ -1,5 +1,11 @@
 # Computer Science
 ## 2026/04/30
+    <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>6.0.3</version>
+            <scope>test</scope>
+        </dependency>
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

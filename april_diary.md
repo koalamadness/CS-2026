@@ -1,5 +1,25 @@
 # Computer Science
 ## 2026/04/30
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class CalculatorTest {
+
+    @Test
+    public void addTest() {
+
+
+        Calculator calculator = new Calculator();
+        int result = calculator.add(10, 20);
+
+        assertEquals(30, result);
+
+    }
+
+
+}
+
 <img width="541" height="576" alt="image" src="https://github.com/user-attachments/assets/0ff34359-b313-4124-95cb-a0e347e0571f" />
 
 <img width="1267" height="605" alt="image" src="https://github.com/user-attachments/assets/191f4e4a-d7af-4dd8-92df-f2753afd2810" />

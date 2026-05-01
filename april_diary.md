@@ -1,5 +1,17 @@
 # Computer Science
 ## 2026/04/30
+  @Test
+    public void getStudentsTest() {
+
+        StudentService studentService = new StudentService();
+
+        List<Student> listOfStudents = studentService.getStudents();
+
+        boolean result = listOfStudents.isEmpty();
+
+        assertTrue(result);
+
+    }
     <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>

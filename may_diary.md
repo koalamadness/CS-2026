@@ -3,4 +3,5 @@
 Jobs Event YAML Runners
 assertTrue(() -> result);
 assertTrue(() -> result, "Denied");
-        assertFalse(result);
+assertFalse(result);
+assertNull(actualObject);

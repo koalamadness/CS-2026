@@ -5,3 +5,14 @@ assertTrue(() -> result);
 assertTrue(() -> result, "Denied");
 assertFalse(result);
 assertNull(actualObject);
+    @Test
+    public void getStudentByIdTest(){
+        StudentService studentService = new StudentService();
+
+        Student student = new Student("Ramesh", 1);
+        studentService.addStudent(student);
+
+        Student actualObject = studentService.getStudentById(7);
+
+        assertNull(actualObject);
+    }

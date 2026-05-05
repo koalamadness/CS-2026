@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/05/05
-
+NullPointerException
     @Test
     public void getStudentByNameAssert() {
         

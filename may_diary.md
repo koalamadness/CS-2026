@@ -1,6 +1,13 @@
 # Computer Science
 ## 2026/05/05
         assertEquals(1, actualObject.getId());
+public class StudentNotFoundException extends RuntimeException {
+
+    public StudentNotFoundException(String message) {
+        super(message);
+    }
+
+}
 
 ## 2026/05/04
 Jobs Event YAML Runners

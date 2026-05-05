@@ -1,5 +1,19 @@
 # Computer Science
 ## 2026/05/05
+
+    @Test
+    public void getStudentByNameAssert() {
+        
+        StudentService studentService = new StudentService();
+        Student student = new Student("Papi", 1);
+        studentService.addStudent(student);
+
+
+        assertThrows(StudentNotFoundException.class, ()-> {
+            studentService.getStudentByName("Papi");
+        } );
+        
+    }
         assertEquals(1, actualObject.getId());
 public class StudentNotFoundException extends RuntimeException {
 

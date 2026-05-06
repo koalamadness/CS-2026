@@ -1,7 +1,11 @@
 # Computer Science
 ## 2026/05/06
 Patrón AAA: Arrange (preparar), Act (ejecutar), Assert (verificar)
-
+Un test = una responsabilidad → cada test verifica una sola cosa
+Nombra con claridad → deberiaRetornarErrorSiEmailEsNulo()
+Patrón AAA: Arrange (preparar), Act (ejecutar), Assert (verificar)
+Tests independientes → no deben depender entre sí
+No lógica compleja en los tests → deben ser simples y legibles
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 

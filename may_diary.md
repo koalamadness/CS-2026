@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/05/06
+Testcontainers levanta una BD real dentro de Docker
+automáticamente solo para tus tests ✅
     @Test
     @DisplayName("Remover last Operation reduce el espacio")
     void removerOperacion() {

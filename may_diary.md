@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/06
+Patrón AAA: Arrange (preparar), Act (ejecutar), Assert (verificar)
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

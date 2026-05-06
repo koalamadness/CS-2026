@@ -1,5 +1,13 @@
 # Computer Science
 ## 2026/05/06
+    @ParameterizedTest(name = "✅ {0} + 1 debería ser {0} + 1")
+    @ValueSource(ints = {1, 5, 10, 100, -5, 0})
+    @DisplayName("Sumar cualquier número con 0 retorna el mismo número")
+    void addUno(int num) {
+        int result = calculator.add(num, 1);
+        assertEquals(num + 1, result);
+    }
+
     @BeforeAll
     static void antesTodo() {
         System.out.println("🚀 Iniciando suite de pruebas de Calculator...");

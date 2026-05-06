@@ -1,5 +1,14 @@
 # Computer Science
 ## 2026/05/06
+   @Test
+    @DisplayName("✅ Suma de dos números positivos")
+    public void addTest() {
+        Calculator calculator = new Calculator();
+
+        int result = calculator.add(10, 20);
+
+        assertEquals(30, result);
+    }
 ProveedorÚsalo cuando...@ValueSourceUn solo parámetro simple@CsvSourcePocos casos, múltiples columnas simples@CsvFileSourceMuchos casos o datos externos@MethodSourceNecesitas objetos complejos o lógica para generar datos@EnumSourceQuieres probar todos (o algunos) valores de un Enum
 import org.junit.jupiter.params.provider.Arguments;
 import java.util.stream.Stream;

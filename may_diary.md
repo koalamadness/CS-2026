@@ -1,5 +1,16 @@
 # Computer Science
 ## 2026/05/06
+    @Test
+    @DisplayName("División por cero NO debería guardarse en el historial")
+    void divisionPorCeroNoDeberiaGuardarseEnHistorial() {
+        // Act & Assert — lanza excepción
+        assertThrows(ArithmeticException.class,
+                () -> service.divide(10, 0)
+        );
+
+        // El historial debe estar vacío — no se guardó nada
+        assertEquals(0, repository.totalOperaciones());
+    }
     @ParameterizedTest(name = "✅ {0} + 1 debería ser {0} + 1")
     @ValueSource(ints = {1, 5, 10, 100, -5, 0})
     @DisplayName("Sumar cualquier número con 0 retorna el mismo número")

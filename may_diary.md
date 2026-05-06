@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/05/06
+@ParameterizedTest
+@ValueSource(strings = {"hola", "mundo", "java"})
+void stringNoDeberiaEstarVacio(String texto) {
+    assertFalse(texto.isEmpty());
+}
 Patrón AAA: Arrange (preparar), Act (ejecutar), Assert (verificar)
 Un test = una responsabilidad → cada test verifica una sola cosa
 Nombra con claridad → deberiaRetornarErrorSiEmailEsNulo()

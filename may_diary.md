@@ -1,5 +1,15 @@
 # Computer Science
 ## 2026/05/06
+   @AfterEach
+    void tearDown() {
+        System.out.println("🧹 Limpiando después del test...");
+        calculator = null;
+    }
+
+    @AfterAll
+    static void afterAll() {
+        System.out.println("✅ Suite de pruebas finalizada.");
+    }
    @Test
     @DisplayName("✅ Suma de dos números positivos")
     public void addTest() {

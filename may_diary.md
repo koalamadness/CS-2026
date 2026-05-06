@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/06
+ProveedorÚsalo cuando...@ValueSourceUn solo parámetro simple@CsvSourcePocos casos, múltiples columnas simples@CsvFileSourceMuchos casos o datos externos@MethodSourceNecesitas objetos complejos o lógica para generar datos@EnumSourceQuieres probar todos (o algunos) valores de un Enum
 import org.junit.jupiter.params.provider.Arguments;
 import java.util.stream.Stream;
 

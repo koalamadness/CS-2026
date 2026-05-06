@@ -1,5 +1,15 @@
 # Computer Science
 ## 2026/05/06
+    @BeforeAll
+    static void antesTodo() {
+        System.out.println("🚀 Iniciando suite de pruebas de Calculator...");
+    }
+
+    @BeforeEach
+    void setup() {
+        System.out.println("🔧 Creando nueva instancia de Calculator...");
+        calculator = new Calculator();
+    }
    @AfterEach
     void tearDown() {
         System.out.println("🧹 Limpiando después del test...");

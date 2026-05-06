@@ -1,5 +1,23 @@
 # Computer Science
 ## 2026/05/06
+import org.junit.jupiter.params.provider.Arguments;
+import java.util.stream.Stream;
+
+@ParameterizedTest
+@MethodSource("proveerDatosDeDescuento")
+void deberiaAplicarDescuento(double precio, int descuento, double esperado) {
+    assertEquals(esperado, calc.aplicarDescuento(precio, descuento));
+}
+
+// El método debe ser static y retornar Stream<Arguments>
+static Stream<Arguments> proveerDatosDeDescuento() {
+    return Stream.of(
+        Arguments.of(1000.0, 10, 900.0),
+        Arguments.of(500.0,  20, 400.0),
+        Arguments.of(200.0,   0, 200.0),
+        Arguments.of(100.0, 100,   0.0)
+    );
+}
 @ParameterizedTest
 @ValueSource(strings = {"hola", "mundo", "java"})
 void stringNoDeberiaEstarVacio(String texto) {

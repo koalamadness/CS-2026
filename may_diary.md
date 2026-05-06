@@ -1,6 +1,25 @@
 # Computer Science
 ## 2026/05/06
     @Test
+    @DisplayName("Remover last Operation reduce el espacio")
+    void removerOperacion() {
+
+        List<String> historial = repository.obtenerHistorial();
+
+        service.add(1, 1);
+        service.add(5, 5);
+        service.divide(10, 2);
+
+        int beforeRemoveSize = repository.totalOperaciones();
+
+        service.removeLastOperation();
+
+        int afterRemoveSize = repository.totalOperaciones();
+
+        assertEquals(beforeRemoveSize - 1, afterRemoveSize);
+
+    }
+    @Test
     @DisplayName("División por cero NO debería guardarse en el historial")
     void divisionPorCeroNoDeberiaGuardarseEnHistorial() {
         // Act & Assert — lanza excepción

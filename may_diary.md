@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/07
+he assertEquals(double expected, double actual, double delta) method in JUnit is used to compare floating-point numbers with a delta for precision. The delta parameter allows for a small difference between the expected and actual values to account for floating-point imprecision.
 @RepeatedTest
 The @RepeatedTest annotation in JUnit 5 is used to run a test method multiple times. It allows you to specify the number of repetitions for a test, which can be useful for testing consistency or performance.
 assertAll() @TempDir

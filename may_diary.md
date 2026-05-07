@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/07
+Wrong answer. The correct answer is A. The assertSame() method in JUnit 5 is used to verify that two objects refer to the same object. It checks if the two object references point to the same memory location.
 A. Dynamic Tests in JUnit 5 allow you to dynamically generate test cases at runtime. They are created by factory methods annotated with @TestFactory and can generate a stream, collection, or iterable of DynamicTest instances.
  B. The @ExtendWith annotation in JUnit 5 is used to add custom extensions to a test class or method. It allows you to register extension classes that can modify or enhance the behavior of tests.
 is C. assumeNotNull() is not a valid assumption method in JUnit 5. The valid assumption methods are assumeTrue(), assumeFalse(), and assumingThat(). Assumptions are used to run tests only if certain conditions are met.

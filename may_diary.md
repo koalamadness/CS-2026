@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/07
+@RepeatedTest
 The @RepeatedTest annotation in JUnit 5 is used to run a test method multiple times. It allows you to specify the number of repetitions for a test, which can be useful for testing consistency or performance.
 assertAll() @TempDir
 B. JUnit 5 uses the concept of Extensions to allow users to extend the framework with custom behavior. Extensions can be used to add custom lifecycle callbacks, parameter resolution, test instance post-processing, and more.

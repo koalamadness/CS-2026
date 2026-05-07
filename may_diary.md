@@ -1,7 +1,7 @@
 # Computer Science
 ## 2026/05/07
 Q. What is the purpose of the @DisabledOnOs annotation in JUnit 5?
-
+wer. The @TestInstance annotation in JUnit 5 controls the lifecycle of test instances. It can be used to specify whether a new instance should be created for each test method (PER_METHOD) or a single instance should be used for all methods in the test class (PER_CLASS).
 The correct answer is B. @Priority is not a valid order annotation for test method execution in JUnit 5. The correct annotations are @Order (for individual methods), @TestMethodOrder (for specifying the ordering strategy for a class), and @OrderWith (for custom MethodOrderer implementations).
 Wrong answer. The correct answer is A. The assertSame() method in JUnit 5 is used to verify that two objects refer to the same object. It checks if the two object references point to the same memory location.
 A. Dynamic Tests in JUnit 5 allow you to dynamically generate test cases at runtime. They are created by factory methods annotated with @TestFactory and can generate a stream, collection, or iterable of DynamicTest instances.

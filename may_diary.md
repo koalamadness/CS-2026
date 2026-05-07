@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/05/07
+
+assertAll() @TempDir
+
 Correct answer. The assertAll() method in JUnit 5 is used to combine multiple assertions into a single statement. It allows you to group related assertions and see all failures at once, rather than stopping at the first failure.
 
 

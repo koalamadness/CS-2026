@@ -2,7 +2,7 @@
 ## 2026/05/07
 
 assertAll() @TempDir
-
+B. JUnit 5 uses the concept of Extensions to allow users to extend the framework with custom behavior. Extensions can be used to add custom lifecycle callbacks, parameter resolution, test instance post-processing, and more.
 Correct answer. The assertAll() method in JUnit 5 is used to combine multiple assertions into a single statement. It allows you to group related assertions and see all failures at once, rather than stopping at the first failure.
 
 

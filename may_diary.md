@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/07
+B. The @Timeout annotation in JUnit 5 is used to set a time limit for test execution. If the test doesn't complete within the specified time, it fails with a TimeoutException.
 @TestMethodOrder
 Correct answer. The @Nested annotation in JUnit 5 is used to define inner test classes. It allows you to create a hierarchical structure of tests, grouping related tests together and potentially sharing setup code.
 he assertEquals(double expected, double actual, double delta) method in JUnit is used to compare floating-point numbers with a delta for precision. The delta parameter allows for a small difference between the expected and actual values to account for floating-point imprecision.

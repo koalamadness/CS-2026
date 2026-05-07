@@ -5,6 +5,8 @@ Correct answer. The assertThrows() method in JUnit is used to verify that a spec
 Correct answer. JUnit test methods can be public void methods. They do not need to return a value or have parameters, and they should not be private to allow the JUnit runner to execute them.
 
 Correct answer. The @ParameterizedTest annotation in JUnit 5 is used to run a test multiple times with different parameters. It allows you to define a set of inputs and expected outputs for a single test method.
+Correct answer. The @TempDir annotation in JUnit 5 is used to create a temporary directory for file operations during tests. It provides a clean, isolated file system location for each test, which is automatically cleaned up after the test.
+
 
 
 

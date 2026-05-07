@@ -4,6 +4,8 @@ Correct answer. In JUnit 5, the @Disabled annotation is used to disable a test m
 Correct answer. The assertThrows() method in JUnit is used to verify that a specific piece of code throws an expected exception. It allows you to test exception handling in your code.
 Correct answer. JUnit test methods can be public void methods. They do not need to return a value or have parameters, and they should not be private to allow the JUnit runner to execute them.
 
+Correct answer. The @ParameterizedTest annotation in JUnit 5 is used to run a test multiple times with different parameters. It allows you to define a set of inputs and expected outputs for a single test method.
+
 
 
 

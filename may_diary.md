@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/05/07
+Correct answer. In JUnit 5, the @Disabled annotation is used to disable a test method or class. Tests marked with @Disabled will not be executed by the test runner.
+
+
 Correct answer. The @Test annotation is used to mark a method as a test in JUnit 5. Methods annotated with @Test will be executed as test cases by the JUnit runner.
 ## 2026/05/06
 Testcontainers levanta una BD real dentro de Docker

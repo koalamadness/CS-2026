@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/07
+is C. assumeNotNull() is not a valid assumption method in JUnit 5. The valid assumption methods are assumeTrue(), assumeFalse(), and assumingThat(). Assumptions are used to run tests only if certain conditions are met.
 B. The @Timeout annotation in JUnit 5 is used to set a time limit for test execution. If the test doesn't complete within the specified time, it fails with a TimeoutException.
 @TestMethodOrder
 Correct answer. The @Nested annotation in JUnit 5 is used to define inner test classes. It allows you to create a hierarchical structure of tests, grouping related tests together and potentially sharing setup code.

@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+Los contenedores son efímeros por diseño. Para persistir datos usas volúmenes (docker volume) o bind mounts, que viven fuera del contenedor.
  docker rm $(docker ps -aq) elimina todos los contenedores (el flag -a = todos, -q = solo IDs). También puedes usar docker container prune.
 docker-compose te permite definir y arrancar varios contenedores (app + base de datos + cache, etc.) con un solo archivo y un solo comando.
 Correcto ✅ docker logs nombre-o-id muestra la salida estándar del contenedor. Útil agregar -f para seguir los logs en tiempo real (como tail -f).

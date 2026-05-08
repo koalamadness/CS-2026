@@ -4,7 +4,7 @@ Es una plantilla que contiene todo lo necesario para ejecutar una aplicación, i
 Contenedor Docker
 ¿Cuál es el comando para descargar una imagen de Docker desde el repositorio público de Docker Hub?
 Docker will pull the image from Docker Hub.
-
+Docker containers are less resource intensive, as they provide process-level virtualization as opposed to full OS virtualization provided by a VM, which is one of the reasons the industry has shifted toward containers.
 ¿Qué comando se utiliza para iniciar un contenedor de Docker?
 
 ¿Cuál es el comando para listar todos los contenedores activos en un host Docker?

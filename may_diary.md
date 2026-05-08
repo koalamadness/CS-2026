@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+ docker rm $(docker ps -aq) elimina todos los contenedores (el flag -a = todos, -q = solo IDs). También puedes usar docker container prune.
 docker-compose te permite definir y arrancar varios contenedores (app + base de datos + cache, etc.) con un solo archivo y un solo comando.
 Correcto ✅ docker logs nombre-o-id muestra la salida estándar del contenedor. Útil agregar -f para seguir los logs en tiempo real (como tail -f).
 docker exec -it abc123 bash. docker run crearía un contenedor nuevo. exec ejecuta un comando en uno que ya existe.

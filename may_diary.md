@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/05/08
-
+Es una plantilla que contiene todo lo necesario para ejecutar una aplicación, incluyendo el código fuente, las dependencias y las configuraciones.
 ## 2026/05/07
 The assertIterableEquals() method in JUnit 5 is used to assert that two iterables contain the same elements in the same order. It compares the elements of the iterables one by one.
 Q. What is the purpose of the @DisabledOnOs annotation in JUnit 5?

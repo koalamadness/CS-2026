@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/05/08
+Namespaces make the isolation of the process that runs a Docker container possible.
+
+Control groups are what make it possible to limit the amount of CPU time and memory allocated to a given container.
+
+Security groups are typically associated with AWS configurations, and Kubernetes is a container orchestration tool.
 Es una plantilla que contiene todo lo necesario para ejecutar una aplicación, incluyendo el código fuente, las dependencias y las configuraciones.
 Contenedor Docker
 ¿Cuál es el comando para descargar una imagen de Docker desde el repositorio público de Docker Hub?

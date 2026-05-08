@@ -8,6 +8,8 @@ Contenedor Docker
 
 ¿Cuál es el comando para listar todos los contenedores activos en un host Docker?
 docker stop
+Kubernetes is an orchestration tool that manages Docker deployments, but it is not a Docker alternative. LXD, rkt and the Windows Server Containers are container implementation technologies that compete with Docker.
+
 
 
 ## 2026/05/07

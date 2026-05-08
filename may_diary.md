@@ -3,6 +3,7 @@
 Es una plantilla que contiene todo lo necesario para ejecutar una aplicación, incluyendo el código fuente, las dependencias y las configuraciones.
 Contenedor Docker
 ¿Cuál es el comando para descargar una imagen de Docker desde el repositorio público de Docker Hub?
+Docker will pull the image from Docker Hub.
 
 ¿Qué comando se utiliza para iniciar un contenedor de Docker?
 

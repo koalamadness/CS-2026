@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+docker build -t nombre:tag ruta. El punto (.) indica que el Dockerfile está en el directorio actual. El flag -t asigna nombre y tag.
 Exacto ✅ Una imagen es como un molde o plantilla — incluye el sistema base, dependencias y tu app. A partir de ella puedes crear múltiples contenedores.
 The given Docker command "docker push user_name/repository_name" is used to push changes done in a Docker image into Docker Hub.
 he given Docker command "docker commit -m “My first update” container_ID user_name/repository_name" is used to commit changes done in a Docker image. This command creates a new image from the changes made in a container. The -m flag is used to add a commit message to describe the changes made. T

@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/05/08
+Correcto ✅ docker logs nombre-o-id muestra la salida estándar del contenedor. Útil agregar -f para seguir los logs en tiempo real (como tail -f).
+
 El Dockerfile es la receta de tu imagen: define desde qué base partes, qué instalas, qué archivos copias y qué comando ejecuta al arrancar.
 docker build -t nombre:tag ruta. El punto (.) indica que el Dockerfile está en el directorio actual. El flag -t asigna nombre y tag.
 Exacto ✅ Una imagen es como un molde o plantilla — incluye el sistema base, dependencias y tu app. A partir de ella puedes crear múltiples contenedores.

@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+ @Transactional funciona vía proxy AOP — Spring envuelve tu bean en un proxy que intercepta llamadas externas. Un método privado o una llamada desde dentro de la misma clase no pasa por el proxy. Bug muy real.
  @RestController combina @Controller + @ResponseBody, serializando automáticamente la respuesta a JSON. @Controller solo devuelve nombres de vistas. Si usaste Thymeleaf alguna vez, lo sabes.
  N+1 es el problema más común con JPA. 1 query para las órdenes + N queries para los productos de cada una. Se resuelve con JOIN FETCH o @EntityGraph. Cualquiera con un año real lo habrá sufrido.
 Con inyección por campo no puedes instanciar la clase en un test sin Spring. Con constructor, pasas las dependencias directo en el new. Es un punto que solo conoces si escribiste tests reales.

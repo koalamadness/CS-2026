@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+El Dockerfile es la receta de tu imagen: define desde qué base partes, qué instalas, qué archivos copias y qué comando ejecuta al arrancar.
 docker build -t nombre:tag ruta. El punto (.) indica que el Dockerfile está en el directorio actual. El flag -t asigna nombre y tag.
 Exacto ✅ Una imagen es como un molde o plantilla — incluye el sistema base, dependencias y tu app. A partir de ella puedes crear múltiples contenedores.
 The given Docker command "docker push user_name/repository_name" is used to push changes done in a Docker image into Docker Hub.

@@ -4,6 +4,8 @@ Es una plantilla que contiene todo lo necesario para ejecutar una aplicación, i
 Contenedor Docker
 ¿Cuál es el comando para descargar una imagen de Docker desde el repositorio público de Docker Hub?
 
+¿Qué comando se utiliza para iniciar un contenedor de Docker?
+
 
 
 ## 2026/05/07

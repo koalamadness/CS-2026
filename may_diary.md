@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+✅ Las tres registran un bean en el contexto de Spring, pero @Repository añade traducción automática de excepciones de BD a DataAccessException. Quien tiene un año real lo sabe.
 El problema N+1 en JPA — nadie lo estudia, lo sufres en producción
 Los proxies AOP de @Transactional — el bug del método privado decepciona a muchos en su primer año
 @Autowired en campo vs constructor — solo lo cuestionas cuando empiezas a escribir tests unitarios

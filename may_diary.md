@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+Con inyección por campo no puedes instanciar la clase en un test sin Spring. Con constructor, pasas las dependencias directo en el new. Es un punto que solo conoces si escribiste tests reales.
 ✅ Las tres registran un bean en el contexto de Spring, pero @Repository añade traducción automática de excepciones de BD a DataAccessException. Quien tiene un año real lo sabe.
 El problema N+1 en JPA — nadie lo estudia, lo sufres en producción
 Los proxies AOP de @Transactional — el bug del método privado decepciona a muchos en su primer año

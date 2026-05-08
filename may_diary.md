@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+docker-compose te permite definir y arrancar varios contenedores (app + base de datos + cache, etc.) con un solo archivo y un solo comando.
 Correcto ✅ docker logs nombre-o-id muestra la salida estándar del contenedor. Útil agregar -f para seguir los logs en tiempo real (como tail -f).
 docker exec -it abc123 bash. docker run crearía un contenedor nuevo. exec ejecuta un comando en uno que ya existe.
 El Dockerfile es la receta de tu imagen: define desde qué base partes, qué instalas, qué archivos copias y qué comando ejecuta al arrancar.

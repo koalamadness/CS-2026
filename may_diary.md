@@ -7,7 +7,7 @@ Contenedor Docker
 ¿Qué comando se utiliza para iniciar un contenedor de Docker?
 
 ¿Cuál es el comando para listar todos los contenedores activos en un host Docker?
-
+docker stop
 
 
 ## 2026/05/07

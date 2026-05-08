@@ -1,7 +1,7 @@
 # Computer Science
 ## 2026/05/08
 Namespaces make the isolation of the process that runs a Docker container possible.
-
+Containers are a lightweight form of virtualization that includes the application and all its dependencies. They operate in isolation from other containers and run as isolated processes in userspace on the host operating system. 
 Control groups are what make it possible to limit the amount of CPU time and memory allocated to a given container.
 
 Security groups are typically associated with AWS configurations, and Kubernetes is a container orchestration tool.

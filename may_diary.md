@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. It is used to automate the creation of Docker images by specifying the base image, adding dependencies, and configuring the environment. 
 Containers running on a single machine share the same operating system kernel, which allows them to start instantly and use RAM more efficiently. This is because containers do not require a separate operating system instance for each container, unlike virtual machines. Instead, they utilize the host machine's operating system, resulting in faster startup times and optimized resource utilization. Therefore, the statement is true.
 Namespaces make the isolation of the process that runs a Docker container possible.
 Containers are a lightweight form of virtualization that includes the application and all its dependencies. They operate in isolation from other containers and run as isolated processes in userspace on the host operating system. 

@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/08
+he given Docker command "docker commit -m “My first update” container_ID user_name/repository_name" is used to commit changes done in a Docker image. This command creates a new image from the changes made in a container. The -m flag is used to add a commit message to describe the changes made. T
 A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. It is used to automate the creation of Docker images by specifying the base image, adding dependencies, and configuring the environment. 
 Containers running on a single machine share the same operating system kernel, which allows them to start instantly and use RAM more efficiently. This is because containers do not require a separate operating system instance for each container, unlike virtual machines. Instead, they utilize the host machine's operating system, resulting in faster startup times and optimized resource utilization. Therefore, the statement is true.
 Namespaces make the isolation of the process that runs a Docker container possible.

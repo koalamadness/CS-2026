@@ -1,4 +1,6 @@
 # Computer Science
+## 2026/05/11
+docker compose watch
 ## 2026/05/08
 @Transient le dice a JPA que ignore ese campo — no crea columna ni lo incluye en queries. Final no funciona igual. Es un caso muy común con campos calculados o de presentación.
  @Transactional funciona vía proxy AOP — Spring envuelve tu bean en un proxy que intercepta llamadas externas. Un método privado o una llamada desde dentro de la misma clase no pasa por el proxy. Bug muy real.

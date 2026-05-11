@@ -1,6 +1,7 @@
 # Computer Science
 ## 2026/05/11
 docker compose watch
+Docker runs instructions in a Dockerfile in order. A Dockerfile must begin with a FROM instruction. This may be after parser directives, comments, and globally scoped ARGs. The FROM instruction specifies the base image from which you are building. FROM may only be preceded by one or more ARG instructions, which declare arguments that are used in FROM lines in the Dockerfile.
 # Use root/example as user/password credentials
 
 services:

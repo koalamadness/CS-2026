@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/05/11
+The CMD instruction sets the command to be executed when running a container from an image.
+
+
 RUN <<EOF
 apt-get update
 apt-get install -y curl

@@ -1,5 +1,6 @@
 # Computer Science
 ## 2026/05/11
+FROM can appear multiple times within a single Dockerfile to create multiple images or use one build stage as a dependency for another. Simply make a note of the last image ID output by the commit before each new FROM instruction. Each FROM instruction clears any state created by previous instructions
 Shell and exec form
 The RUN, CMD, and ENTRYPOINT instructions all have two possible forms:
 

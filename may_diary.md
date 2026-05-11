@@ -1,5 +1,9 @@
 # Computer Science
 ## 2026/05/11
+RUN <<EOF
+apt-get update
+apt-get install -y curl
+EOF
 The RUN instruction will execute any commands to create a new layer on top of the current image. The added layer is used in the next step in the Dockerfile. RUN has two forms:
 FROM instructions support variables that are declared by any ARG instructions that occur before the first FROM.
 FROM can appear multiple times within a single Dockerfile to create multiple images or use one build stage as a dependency for another. Simply make a note of the last image ID output by the commit before each new FROM instruction. Each FROM instruction clears any state created by previous instructions

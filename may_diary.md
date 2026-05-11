@@ -1,7 +1,11 @@
 # Computer Science
 
 ## 2026/05/11
-
+Entonces “build” significa:
+compilar código (si aplica)
+juntar archivos
+optimizar
+preparar versión final
 Continuos Integration Continuos Delivery Deployment
 
 git checkout -b feature/login

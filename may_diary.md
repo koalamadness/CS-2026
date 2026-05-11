@@ -1,6 +1,17 @@
 # Computer Science
 ## 2026/05/11
 docker compose watch
+# Use root/example as user/password credentials
+
+services:
+
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    # (this is just an example, not intended to be a production configuration)
+
 docker run -t -d 8080:80 docker/todo-app
 ## 2026/05/08
 @Transient le dice a JPA que ignore ese campo — no crea columna ni lo incluye en queries. Final no funciona igual. Es un caso muy común con campos calculados o de presentación.

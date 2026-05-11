@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/05/11
+Shell and exec form
+The RUN, CMD, and ENTRYPOINT instructions all have two possible forms:
+
+INSTRUCTION ["executable","param1","param2"] (exec form)
+INSTRUCTION command param1 param2 (shell form)
 FROM busybox
 ENV FOO=/bar
 WORKDIR ${FOO}   # WORKDIR /bar

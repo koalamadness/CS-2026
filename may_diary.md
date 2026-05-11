@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/05/11
+
+git status
+
 The CMD instruction sets the command to be executed when running a container from an image.
 
 

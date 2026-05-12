@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/05/12
-
+Electro
 ## 2026/05/11
 Entonces “build” significa:
 compilar código (si aplica)

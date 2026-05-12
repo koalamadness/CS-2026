@@ -1,6 +1,9 @@
 # Computer Science
 ## 2026/05/12
 Electro
+You can give the workflow file any name you like, but you must use .yml or .yaml as the file name extension. YAML is a markup language that's commonly used for configuration files.
+
+
 ## 2026/05/11
 Entonces “build” significa:
 compilar código (si aplica)

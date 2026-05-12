@@ -1,5 +1,12 @@
 # Computer Science
 ## 2026/05/12
+Actions
+An action is a pre-defined, reusable set of jobs or code that performs specific tasks within a workflow, reducing the amount of repetitive code you write in your workflow files. Actions can perform tasks such as:
+
+Pulling your Git repository from GitHub
+Setting up the correct toolchain for your build environment
+Setting up authentication to your cloud provider
+You can write your own actions, or you can find actions to use in your workflows in the GitHub Marketplace.
 You can configure a job's dependencies with other jobs; by default, jobs have no dependencies and run in parallel. When a job takes a dependency on another job, it waits for the dependent job to complete before running.
 
 You can also use a matrix to run the same job multiple times, each with a different combination of variables—like operating systems or language versions.

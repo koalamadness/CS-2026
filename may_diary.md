@@ -1,6 +1,6 @@
 # Computer Science
 ## 2026/05/13
-
+JWT header signature carne
 ## 2026/05/12
 Runners
 A runner is a server that runs your workflows when they're triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows. Each workflow run executes in a fresh, newly-provisioned virtual machine.

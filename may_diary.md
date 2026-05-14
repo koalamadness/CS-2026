@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/05/14
+A modo de prueba de concepto, levantamos un servidor basado en el pseudo-código para emular el caso en un exchange de crypto.
+
+Si ingresamos la cantidad de dinero a retirar y presionamos el botón RETIRAR, la aplicación eliminará ese monto del total asociado a la cuenta. 
 Interferencia de un proceso no confiable: el atacante inserta un fragmento de código entre los pasos de un proceso seguro.
 Interferencia de un proceso confiable: el atacante explota dos procesos diferentes que comparten algún estado en común.
 Sin los controles adecuados, los diferentes procesos pueden interferir entre sí. Cuando el tiempo de algunas acciones impacta en otras, los eventos pueden ocurrir fuera de secuencia, lo que resulta en un comportamiento anómalo. Este comportamiento anómalo es una Race Condition.

@@ -1,6 +1,11 @@
 # Computer Science
 ## 2026/05/14
+¿Qué es una Race Condition?
+Race Condition es una vulnerabilidad que ocurre cuando un sistema que maneja tareas en una secuencia específica es forzado a realizar dos o más operaciones simultáneamente. 
 
+Esto permite que los atacantes tomen ventaja del intervalo de tiempo que se da entre el inicio de un servicio y el momento en que un control de seguridad surte efecto. 
+
+Con las Race Condition los atacantes pueden acceder a recursos compartidos como bases de datos, archivos y objetos en código para modificarlos simultáneamente y/o afectar la integridad del recurso.
 ## 2026/05/13
 JWT header signature carne JPA Repository
 ## 2026/05/12

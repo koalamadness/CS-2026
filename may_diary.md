@@ -1,7 +1,9 @@
 # Computer Science
 ## 2026/05/14
 Para comprobar esto, se pueden utilizar varias herramientas. En este caso se utilizará el software Burpsuite, que mediante una extensión (Turbo Intruder) puede ejecutar múltiples solicitudes HTTP de forma simultánea. 
+Python tiene una función de bloqueo incorporada para el acceso a los recursos llamada threading.Lock.
 
+Si agregas las funciones lock.acquire y lock.release logras bloquear el acceso al recurso para que ningún otro hilo acceda a ese recurso al mismo tiempo.
 Esta extensión realizará 100 solicitudes simultáneas y todas retirarán $10.000 (el dinero total de la cuenta).
 
 Una vez ejecutado el programa, podemos ver que 9 solicitudes retiraron $10.000. Esto quiere decir que retiramos $90.000 de una cuenta con solo $10.000.

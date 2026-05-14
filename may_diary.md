@@ -1,5 +1,14 @@
 # Computer Science
 ## 2026/05/14
+Los tres mecanismos clave de la solución son:
+1. beginTransaction() — agrupa todas las operaciones en una unidad atómica. Si algo falla, todo se deshace.
+2. SELECT ... FOR UPDATE — esta es la pieza fundamental. Le dice a MySQL que bloquee la fila del usuario hasta que la transacción termine. Cualquier otro proceso que intente acceder a esa misma fila queda en cola, no puede leer ni escribir hasta que se libere el candado.
+3. UPDATE saldo = saldo - ? — en lugar de leer el saldo en PHP y restarlo ahí, la operación matemática ocurre directamente en la base de datos, eliminando la ventana de vulnerabilidad entre lectura y escritura.
+Otras estrategias complementarias que puedes combinar:
+
+Rate limiting por usuario — limitar a una solicitud de retiro por segundo por cuenta desde el backend o un proxy como Nginx.
+Cola de trabajo — procesar retiros secuencialmente con una queue (Redis + workers), evitando concurrencia desde la raíz.
+Optimistic locking — agregar una columna version a la tabla: si al hacer UPDATE la versión ya cambió, se reintenta. Útil cuando los conflictos son raros y no quieres bloquear lecturas.
 Para comprobar esto, se pueden utilizar varias herramientas. En este caso se utilizará el software Burpsuite, que mediante una extensión (Turbo Intruder) puede ejecutar múltiples solicitudes HTTP de forma simultánea. 
 Python tiene una función de bloqueo incorporada para el acceso a los recursos llamada threading.Lock.
 

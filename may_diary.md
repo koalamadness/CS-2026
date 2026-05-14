@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/05/14
+Interferencia de un proceso no confiable: el atacante inserta un fragmento de código entre los pasos de un proceso seguro.
+Interferencia de un proceso confiable: el atacante explota dos procesos diferentes que comparten algún estado en común.
+Sin los controles adecuados, los diferentes procesos pueden interferir entre sí. Cuando el tiempo de algunas acciones impacta en otras, los eventos pueden ocurrir fuera de secuencia, lo que resulta en un comportamiento anómalo. Este comportamiento anómalo es una Race Condition.
 ¿Qué es una Race Condition?
 Race Condition es una vulnerabilidad que ocurre cuando un sistema que maneja tareas en una secuencia específica es forzado a realizar dos o más operaciones simultáneamente. 
 

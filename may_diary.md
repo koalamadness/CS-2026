@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/05/14
+<img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/032ec06f-b459-4c40-9c57-f76d2c4c8e00" />
+
 Los tres mecanismos clave de la solución son:
 1. beginTransaction() — agrupa todas las operaciones en una unidad atómica. Si algo falla, todo se deshace.
 2. SELECT ... FOR UPDATE — esta es la pieza fundamental. Le dice a MySQL que bloquee la fila del usuario hasta que la transacción termine. Cualquier otro proceso que intente acceder a esa misma fila queda en cola, no puede leer ni escribir hasta que se libere el candado.

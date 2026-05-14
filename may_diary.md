@@ -1,5 +1,10 @@
 # Computer Science
 ## 2026/05/14
+Para comprobar esto, se pueden utilizar varias herramientas. En este caso se utilizará el software Burpsuite, que mediante una extensión (Turbo Intruder) puede ejecutar múltiples solicitudes HTTP de forma simultánea. 
+
+Esta extensión realizará 100 solicitudes simultáneas y todas retirarán $10.000 (el dinero total de la cuenta).
+
+Una vez ejecutado el programa, podemos ver que 9 solicitudes retiraron $10.000. Esto quiere decir que retiramos $90.000 de una cuenta con solo $10.000.
 A modo de prueba de concepto, levantamos un servidor basado en el pseudo-código para emular el caso en un exchange de crypto.
 
 Si ingresamos la cantidad de dinero a retirar y presionamos el botón RETIRAR, la aplicación eliminará ese monto del total asociado a la cuenta. 

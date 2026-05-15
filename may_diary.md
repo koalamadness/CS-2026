@@ -1,5 +1,8 @@
 # Computer Science
 ## 2026/05/14
+An atomic operation is a type of operation that runs without interruption, ensuring that it is completed as a single, indivisible unit. These operations are commonly used in computer science for tasks like updating counters and are implemented using processor atomic instructions to prevent interruptions and maintain data integrity.
+
+
 <img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/032ec06f-b459-4c40-9c57-f76d2c4c8e00" />
 
 Los tres mecanismos clave de la solución son:

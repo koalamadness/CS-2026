@@ -1,6 +1,9 @@
 # Computer Science
 
 ## 2026/05/18
+
+
+The sleep(1000) method pauses thread execution for 1 second (1000 milliseconds). The thread then moves back to RUNNABLE.
 join()
 A thread is the smallest unit of execution within a program, allowing multiple tasks to run concurrently. In Java, threads help improve performance by enabling parallel execution.
 

@@ -1,6 +1,9 @@
 # Computer Science
 
 ## 2026/05/18
+A thread is the smallest unit of execution within a program, allowing multiple tasks to run concurrently. In Java, threads help improve performance by enabling parallel execution.
+
+
 Note: The order of thread execution may vary on each run because thread scheduling is non-deterministic.
 
 

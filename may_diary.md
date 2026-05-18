@@ -1,6 +1,8 @@
 # Computer Science
 
 ## 2026/05/18
+Process is the Independent program with its own memory
+Thread is small unit of a process sharing same memory
 Use ExecutorService: The ExecutorService framework in Java provides a high-level API to manage thread pools and execute tasks asynchronously. This is recommended for managing a large number of threads.
 
 synchronized 

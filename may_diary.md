@@ -1,6 +1,10 @@
 # Computer Science
 
 ## 2026/05/18
+exists()
+createNewFile()
+mkdir()
+delete()
 https://www.digitalocean.com/community/tutorials/multithreading-in-java#frequently-asked-questions-faqs
 In Java, when you run a program, the Java Virtual Machine (JVM) starts a process. Inside that process, the JVM can run multiple threads to perform different tasks.
 

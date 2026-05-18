@@ -1,6 +1,9 @@
 # Computer Science
 
 ## 2026/05/18
+In Java, when you run a program, the Java Virtual Machine (JVM) starts a process. Inside that process, the JVM can run multiple threads to perform different tasks.
+
+
 Threads within the same process share memory and resources, enabling faster communication.
 Context switching can occur between threads to allow multiple tasks to execute efficiently.
 Process is the Independent program with its own memory

@@ -2,6 +2,8 @@
 
 ## 2026/05/18
 Java thread states include NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, and TERMINATED.
+Calling start() twice on the same thread results in IllegalThreadStateException. A thread can only be started once.
+
 
 The sleep(1000) method pauses thread execution for 1 second (1000 milliseconds). The thread then moves back to RUNNABLE.
 join()

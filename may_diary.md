@@ -1,6 +1,8 @@
 # Computer Science
 
 ## 2026/05/18
+Use ExecutorService: The ExecutorService framework in Java provides a high-level API to manage thread pools and execute tasks asynchronously. This is recommended for managing a large number of threads.
+
 synchronized 
 Multithreading is a core concept in Java that allows multiple threads to run concurrently, maximizing CPU utilization and making applications more efficient. Java provides built-in support for multithreading, making it a critical topic for developers.
 <img width="750" height="321" alt="image" src="https://github.com/user-attachments/assets/8d9ba4a0-3981-46cd-a9ed-a9ec89015851" />

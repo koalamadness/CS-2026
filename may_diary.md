@@ -1,6 +1,7 @@
 # Computer Science
 
 ## 2026/05/18
+Multithreading is a core concept in Java that allows multiple threads to run concurrently, maximizing CPU utilization and making applications more efficient. Java provides built-in support for multithreading, making it a critical topic for developers.
 <img width="750" height="321" alt="image" src="https://github.com/user-attachments/assets/8d9ba4a0-3981-46cd-a9ed-a9ec89015851" />
 
 Java thread states include NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, and TERMINATED.

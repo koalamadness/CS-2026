@@ -1,7 +1,7 @@
 # Computer Science
 
 ## 2026/05/18
-
+Java thread states include NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, and TERMINATED.
 
 The sleep(1000) method pauses thread execution for 1 second (1000 milliseconds). The thread then moves back to RUNNABLE.
 join()

@@ -1,6 +1,9 @@
 # Computer Science
 
 ## 2026/05/18
+Note: The order of thread execution may vary on each run because thread scheduling is non-deterministic.
+
+
 Concurrency
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/adb3689e-f4bf-49bf-a369-07ee370bff1a" />
 

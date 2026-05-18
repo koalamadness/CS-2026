@@ -1,6 +1,8 @@
 # Computer Science
 
 ## 2026/05/18
+<img width="750" height="321" alt="image" src="https://github.com/user-attachments/assets/8d9ba4a0-3981-46cd-a9ed-a9ec89015851" />
+
 Java thread states include NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, and TERMINATED.
 Calling start() twice on the same thread results in IllegalThreadStateException. A thread can only be started once.
 

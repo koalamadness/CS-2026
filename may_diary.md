@@ -2,6 +2,7 @@
 
 ## 2026/05/18
 Concurrency
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/adb3689e-f4bf-49bf-a369-07ee370bff1a" />
 
 ## 2026/05/14
 An atomic operation is a type of operation that runs without interruption, ensuring that it is completed as a single, indivisible unit. These operations are commonly used in computer science for tasks like updating counters and are implemented using processor atomic instructions to prevent interruptions and maintain data integrity.

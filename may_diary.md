@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/05/19
+<img width="1122" height="402" alt="image" src="https://github.com/user-attachments/assets/be2c5524-476e-4e17-947a-971ff07c2bff" />
+
 try {
     
     // Code that may throw an exception

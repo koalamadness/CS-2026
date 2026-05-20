@@ -1,5 +1,9 @@
 # Computer Science
 ## 2026/05/19
+Built-in Exception are pre-defined exception classes provided by Java to handle common errors during program execution. There are two type of built-in exception in java.
+
+Checked Exception: These exceptions are checked at compile time, forcing the programmer to handle them explicitly.
+Unchecked Exception: These exceptions are checked at runtime and do not require explicit handling at compile time.
 <img width="768" height="385" alt="image" src="https://github.com/user-attachments/assets/ce5a46ac-311c-4f26-90aa-73c68308dd53" />
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/595c0202-c81d-47f2-b323-8aec43f04824" />

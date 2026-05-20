@@ -1,5 +1,21 @@
 # Computer Science
 ## 2026/05/19
+try {
+    
+    // Code that may throw an exception
+    
+} catch (ArithmeticException e) {
+    
+    // Code to handle the exception
+    
+} catch(ArrayIndexOutOfBoundsException e){
+    
+    // Code to handle the another exception
+    
+}catch(NumberFormatException e){
+    
+     // Code to handle the another exception
+}
 public class NestedTryExample {
     public static void main(String[] args) {
         try {

@@ -1,6 +1,8 @@
 # Computer Science
 ## 2026/05/19
 Electro
+<img width="640" height="831" alt="image" src="https://github.com/user-attachments/assets/f523078d-9ea4-4116-ba20-522898935d43" />
+
 ## 2026/05/18
 try-with-resources
 exists()

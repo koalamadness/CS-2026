@@ -1,5 +1,21 @@
 # Computer Science
 ## 2026/05/19
+public class NestedTryExample {
+    public static void main(String[] args) {
+        try {
+            System.out.println("Outer try block");
+            try {
+                int a = 10 / 0; // This causes ArithmeticException
+            } catch (ArithmeticException e) {
+                System.out.println("Inner catch: " + e);
+            }
+            String str = null;
+            System.out.println(str.length()); // This causes NullPointerException
+        } catch (NullPointerException e) {
+            System.out.println("Outer catch: " + e);
+        }
+    }
+}
 Built-in Exception are pre-defined exception classes provided by Java to handle common errors during program execution. There are two type of built-in exception in java.
 
 Checked Exception: These exceptions are checked at compile time, forcing the programmer to handle them explicitly.

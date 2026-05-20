@@ -3,7 +3,10 @@
 Electro
 <img width="640" height="831" alt="image" src="https://github.com/user-attachments/assets/f523078d-9ea4-4116-ba20-522898935d43" />
 <img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/26d2591c-04fd-4550-aa1f-88e6afbb2514" />
+Exception Handling in Java is a mechanism used to handle both compile-time (checked) and runtime (unchecked) exceptions, allowing a program to continue execution smoothly even in the presence of errors.
 
+Handles abnormal conditions that occur during program execution.
+Helps maintain program stability by preventing unexpected termination.
 ## 2026/05/18
 try-with-resources
 exists()

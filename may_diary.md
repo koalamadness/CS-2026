@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/05/19
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/595c0202-c81d-47f2-b323-8aec43f04824" />
+
 Electro
 The finally block executes after the try and catch blocks in most situations, whether an exception arised or not. It is typically used for closing resources such as database connections, open files, or network connections.
 

@@ -1,5 +1,7 @@
 # Computer Science
 ## 2026/05/19
+<img width="768" height="385" alt="image" src="https://github.com/user-attachments/assets/ce5a46ac-311c-4f26-90aa-73c68308dd53" />
+
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/595c0202-c81d-47f2-b323-8aec43f04824" />
 
 Electro

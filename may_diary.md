@@ -1,6 +1,13 @@
 # Computer Science
 ## 2026/05/19
 Electro
+The finally block executes after the try and catch blocks in most situations, whether an exception arised or not. It is typically used for closing resources such as database connections, open files, or network connections.
+
+Finally may not execute in cases like:
+
+System.exit()
+JVM crash
+infinite loop before finally
 <img width="640" height="831" alt="image" src="https://github.com/user-attachments/assets/f523078d-9ea4-4116-ba20-522898935d43" />
 <img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/26d2591c-04fd-4550-aa1f-88e6afbb2514" />
 Exception Handling in Java is a mechanism used to handle both compile-time (checked) and runtime (unchecked) exceptions, allowing a program to continue execution smoothly even in the presence of errors.
